@@ -16,7 +16,7 @@ export default function Navbar() {
     <nav className="hidden md:flex mt-4 justify-around items-center text-xl">
       <div className="pl-10 pr-10">
         <Image
-          src="/images/logo.svg"
+          src="/images/logo.webp"
           width={200}
           height={54}
           alt="Watsons Opticians Logo"
@@ -42,7 +42,7 @@ export default function Navbar() {
           className="mr-5"
         />
         <Image
-          src="/images/logo.svg"
+          src="/images/logo.webp"
           width={90}
           height={30}
           alt="Watsons Opticians Logo"
@@ -53,7 +53,7 @@ export default function Navbar() {
      <nav className={`${hidden === 1 ? 'hidden' : 'flex'} bg-white flex-col w-full h-full mt-4 fixed top-0 z-100 items-center text-xl`}>
       <div>
         <Image
-          src="/images/logo.svg"
+          src="/images/logo.webp"
           width={200}
           height={54}
           alt="Watsons Opticians Logo"
