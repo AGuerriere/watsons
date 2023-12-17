@@ -32,7 +32,7 @@ export default function Navbar() {
     </nav>
 
     {/* Mobile navbar closed */}
-    <nav className="flex md:hidden justify-start items-center h-24">
+    <nav className={`${hidden === 1 ? 'flex' : 'hidden'}flex md:hidden justify-start items-center h-24`}>
       <Image
           src="/images/menu.svg"
           width={50}
