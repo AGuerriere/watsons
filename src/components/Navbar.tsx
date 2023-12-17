@@ -39,7 +39,7 @@ export default function Navbar() {
           height={50}
           alt="Watsons Opticians Logo"
           onClick={() => triggerToggle()}
-          className="mr-5"
+          className="ml-3 mr-5"
         />
         <Image
           src="/images/logo.webp"
@@ -50,7 +50,7 @@ export default function Navbar() {
       
     </nav>
      {/* Mobile navbar open */}
-     <nav className={`${hidden === 1 ? 'hidden' : 'flex'} bg-white flex-col w-full h-full mt-4 fixed top-0 z-100 items-center text-xl`}>
+     <nav className={`${hidden === 1 ? 'hidden' : 'flex'} bg-white flex-col w-full h-full pt-4 absolute top-0 z-100 items-center text-xl`}>
       <div>
         <Image
           src="/images/logo.webp"
