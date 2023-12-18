@@ -13,8 +13,8 @@ export default function Navbar() {
   return (
     <>
     {/* Desktop Navbar */}
-    <nav className="hidden md:flex mt-4 justify-around items-center text-xl">
-      <div className="pl-10 pr-10">
+    <nav className="hidden md:flex h-[10vh] justify-between ml-24 mr-24 items-center text-xl">
+      <div className="">
         <Image
           src="/images/logo.webp"
           width={200}
@@ -32,7 +32,7 @@ export default function Navbar() {
     </nav>
 
     {/* Mobile navbar closed */}
-    <nav className={`${hidden === 1 ? 'flex' : 'hidden'} md:hidden justify-start items-center h-24`}>
+    <nav className={`${hidden === 1 ? 'flex' : 'hidden'} md:hidden justify-start items-center h-[10vh]`}>
       <Image
           src="/images/menu.svg"
           width={50}
