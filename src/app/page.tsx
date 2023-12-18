@@ -44,12 +44,12 @@ export default function Home() {
       {/* Section */}
       <h2 className='text-2xl xl:text-5xl text-black font-normal pb-10'>Our Products and Services</h2>
       <div className='flex flex-col md:flex-row md:flex-wrap'>
-        <Card title="Eye Tests" img="/images/homepage/3.webp" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor." />
-        <Card title="Eye Wear" img="/images/homepage/1.webp" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor." />
-        <Card title="Contact Lenses" img="/images/homepage/2.webp" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor." />
-        <Card title="PEARS (NHS free service)" img="/images/homepage/5.webp" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor." />
-        <Card title="Dry eye clinic" img="/images/homepage/7.webp" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor." />
-        <Card title="Myopia management" img="/images/homepage/6.webp" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor." />
+        <Card title="Eye Tests" img="/images/homepage/3.webp" paragraph="An eye test is not just about finding out if you need glasses or contact lenses. It is a vital health check for your eyes. " />
+        <Card title="Eye Wear" img="/images/homepage/1.webp" paragraph="We offer a wide selection to cater for different prescriptions, and lifestyle requirements." />
+        <Card title="Contact Lenses" img="/images/homepage/2.webp" paragraph="If you prefer contact lenses, we can help you find the best fit and type for your eyes." />
+        <Card title="PEARS (NHS free service)" img="/images/homepage/5.webp" paragraph="The NHS has launched a new free eye care service for people with minor eye conditions." />
+        <Card title="Dry eye clinic" img="/images/homepage/7.webp" paragraph="With the help of our Dry Eye clinic we can recommend the best tailored plan to minimise any discomfort. " />
+        <Card title="Myopia management" img="/images/homepage/6.webp" paragraph="Repeated Low Level Red Light (RLRL) therapy designed to slow down the progression of myopia." />
       </div>
     </>
 
