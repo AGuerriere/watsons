@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import GoldTitle from '@/components/GoldTitle'
 import LearnMore from '@/components/LearnMore'
+import Card from '@/components/Card'
 
 export default function Home() {
   return (
@@ -40,7 +41,17 @@ export default function Home() {
           <LearnMore text="Learn more about us" />
         </div>
       </div>
-
+      {/* Section */}
+      <h2 className='text-2xl xl:text-5xl text-black font-normal pb-10'>Our Products and Services</h2>
+      <div className='flex flex-col md:flex-row md:flex-wrap'>
+        <Card title="Eye Tests" img="/images/homepage/3.webp" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor." />
+        <Card title="Eye Wear" img="/images/homepage/1.webp" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor." />
+        <Card title="Contact Lenses" img="/images/homepage/2.webp" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor." />
+        <Card title="PEARS (NHS free service)" img="/images/homepage/5.webp" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor." />
+        <Card title="Dry eye clinic" img="/images/homepage/7.webp" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor." />
+        <Card title="Myopia management" img="/images/homepage/6.webp" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor." />
+      </div>
     </>
+
   )
 }
