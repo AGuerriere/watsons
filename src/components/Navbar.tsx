@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <>
     {/* Desktop Navbar */}
-    <nav className="hidden md:flex h-[10vh] justify-between ml-24 mr-24 items-center text-xl">
+    <nav className="hidden md:flex h-[10vh] justify-between items-center text-xl">
       <div className="">
         <Image
           src="/images/logo.webp"
@@ -39,7 +39,7 @@ export default function Navbar() {
           height={50}
           alt="Watsons Opticians Logo"
           onClick={() => triggerToggle()}
-          className="ml-3 mr-5"
+          className=" mr-5"
         />
         <Image
           src="/images/logo.webp"

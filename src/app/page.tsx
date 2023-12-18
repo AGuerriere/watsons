@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
       {/* Header */}
       <div className="text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 h-[90vh] bg-[url('/images/header.webp')] bg-cover bg-no-repeat bg-center">
-        <div className='bg-greenOverlay h-full p-5 '>
+        <div className='bg-greenOverlay h-full pl-7 md:pl-20 '>
           <div className='flex pl:14 flex-col justify-center h-full'>
             <h1 className='text-5xl font-bold leading-normal xl:text-7xl md:w-4/5 lg:w-3/5 md:leading-normal xl:leading-normal lg:w-2/5'>
               <span className='text-gold'>Family-owned</span> and operated optometry practice with over 40 years of experience.
