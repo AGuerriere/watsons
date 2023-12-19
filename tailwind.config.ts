@@ -12,6 +12,7 @@ const config: Config = {
         grey1: '#737373',
         grey2: '#D9D9D9',
         gold: '#D9B166',
+        green1:"#0A4030",
         greenOverlay: 'rgba(10, 64, 48, 0.85)',
       },
       backgroundImage: {

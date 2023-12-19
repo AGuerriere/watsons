@@ -19,7 +19,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* Section */}
+      {/* Section 1*/}
       <div className='flex flex-wrap xl:flex-nowrap mt-20 pb-20'>
       <Image
           src="/images/homepage/6.webp"
@@ -41,7 +41,7 @@ export default function Home() {
           <LearnMore text="Learn more about us" />
         </div>
       </div>
-      {/* Section */}
+      {/* Section 2*/}
       <h2 className='text-2xl xl:text-5xl text-black font-normal pb-10'>Our Products and Services</h2>
       <div className='flex flex-col md:flex-row md:flex-wrap'>
         <Card title="Eye Tests" img="/images/homepage/3.webp" paragraph="An eye test is not just about finding out if you need glasses or contact lenses. It is a vital health check for your eyes. " />
@@ -51,6 +51,25 @@ export default function Home() {
         <Card title="Dry eye clinic" img="/images/homepage/7.webp" paragraph="With the help of our Dry Eye clinic we can recommend the best tailored plan to minimise any discomfort. " />
         <Card title="Myopia management" img="/images/homepage/6.webp" paragraph="Repeated Low Level Red Light (RLRL) therapy designed to slow down the progression of myopia." />
       </div>
+      {/* Section 3 */}
+      <div className='bg-green1 flex flex-col md:flex-row text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 pl-7 md:pl-20 w-[100vw]'>
+        <div className='w-full h- md:w-1/2 pt-10'>
+          <GoldTitle text='Free NHS Service' />
+          <h2 className='text-white text-2xl xl:text-5xl text-black font-normal pb-10'>Our Products and Services</h2>
+          <p className='font-light'>The NHS cover the cost of a sight test for a wide range of people including children aged 16 and under, 16–18-year-olds in full time education and those over 60 amongst others. For a full list of those eligible click here
+            <br /><br />Emergency appointments for minor eye conditions are available. This is known as NI PEARS (Northern Ireland Primary Eyecare Assessment and Referral Service).</p>
+            <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7'>Learn more</div>
+        </div>
+        <div className="flex justify-end w-full md:w-1/2 relative">
+        <Image
+          src="/images/homepage/8.webp"
+          width={490}
+          height={450}
+          alt="Picture of a patient undergoing an eye test"
+          className='order-2 xl:order-1 -pl-7'
+        />
+      </div>
+</div>
     </>
 
   )
