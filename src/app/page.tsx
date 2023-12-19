@@ -15,13 +15,13 @@ export default function Home() {
             <h1 className='text-5xl font-bold leading-normal xl:text-7xl md:w-4/5 lg:w-3/5 md:leading-normal xl:leading-normal lg:w-2/5'>
               <span className='text-gold'>Family-owned</span> and operated optometry practice with over 40 years of experience.
             </h1>
-          <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7'>Learn more</div>
+            <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7'>Learn more</div>
           </div>
         </div>
       </div>
       {/* Section 1*/}
       <div className='flex flex-wrap xl:flex-nowrap mt-20 pb-20'>
-      <Image
+        <Image
           src="/images/homepage/6.webp"
           width={590}
           height={520}
@@ -33,7 +33,7 @@ export default function Home() {
           <GoldTitle text="At Watsons" />
           <h2 className='text-2xl xl:text-5xl text-black font-normal'>We’re passionate about making eyecare accessible</h2>
           <p className='text-base xl:text-grey1 xl:text-2xl font-light leading-normal'>
-            See better and look great with our wide range of glasses, contact lenses and sunglasses from leading brands. 
+            See better and look great with our wide range of glasses, contact lenses and sunglasses from leading brands.
             <br /><br />
             We offer comprehensive eye tests, diagnosis and treatment for various eye conditions using the latest technology and equipment. We are the only opticians in Northern Ireland offering Repeated Low Level Red Light Therapy to slow down progression of myopia in children.
           </p>
@@ -59,24 +59,40 @@ export default function Home() {
           <h2 className='text-white text-2xl xl:text-5xl text-black font-normal pb-10'>Our Products and Services</h2>
           <p className='font-light lg:text-2xl pr-5'>The NHS cover the cost of a sight test for a wide range of people including children aged 16 and under, 16–18-year-olds in full time education and those over 60 amongst others. For a full list of those eligible click here
             <br /><br />Emergency appointments for minor eye conditions are available. This is known as NI PEARS (Northern Ireland Primary Eyecare Assessment and Referral Service).</p>
-            <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7'>
-              Learn more
-            </div>
-            <br /><br />
+          <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7'>
+            Learn more
+          </div>
+          <br /><br />
         </div>
         <div className="flex justify-center md:justify-end w-full md:w-2/3 relative min-h-[400px]">
-        <Image
-          src="/images/homepage/8.webp"
-          fill
-          sizes="100%"
-          style={{
-            objectFit: 'cover',
-          }}
-          alt="Picture of a patient undergoing an eye test"
-          className='order-2 xl:order-1 -pl-7 w-auto'
-        />
+          <Image
+            src="/images/homepage/8.webp"
+            fill
+            sizes="100%"
+            style={{
+              objectFit: 'cover',
+            }}
+            alt="Picture of a patient undergoing an eye test"
+            className='order-2 xl:order-1 -pl-7 w-auto'
+          />
+        </div>
       </div>
-</div>
+      {/* Form Section */}
+      <div>
+        <h2 className='text-white text-2xl xl:text-5xl text-black font-normal pb-10'>Book your appointment today</h2>
+        <div className='flex'>
+          <div>
+            <GoldTitle text="Contact us"/>
+            <h4 className="font-normal text-black text-lg md:text-xl lg:text-2xl">Get in touch!</h4>
+            <p>To arrange an appointment or register as a new customers please fill in the form below and we will get back to you within 48 hours: </p>
+            <form action="GET">
+
+              
+            </form>
+          </div>
+          <div></div>
+        </div>
+      </div>
     </>
 
   )
