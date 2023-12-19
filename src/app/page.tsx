@@ -52,15 +52,19 @@ export default function Home() {
         <Card title="Myopia management" img="/images/homepage/6.webp" paragraph="Repeated Low Level Red Light (RLRL) therapy designed to slow down the progression of myopia." />
       </div>
       {/* Section 3 */}
-      <div className='bg-green1 flex flex-col md:flex-row text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 pl-7 md:pl-20 w-[100vw]'>
-        <div className='w-full h- md:w-1/2 pt-10'>
+      <div className='bg-green1 flex flex-col md:flex-row text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 md:pl-20 w-[100vw] mb-10'>
+        <div className='w-full h- md:w-1/2 pt-10 pl-7 md:pl-0'>
           <GoldTitle text='Free NHS Service' />
+          <br />
           <h2 className='text-white text-2xl xl:text-5xl text-black font-normal pb-10'>Our Products and Services</h2>
-          <p className='font-light'>The NHS cover the cost of a sight test for a wide range of people including children aged 16 and under, 16–18-year-olds in full time education and those over 60 amongst others. For a full list of those eligible click here
+          <p className='font-light lg:text-2xl pr-5'>The NHS cover the cost of a sight test for a wide range of people including children aged 16 and under, 16–18-year-olds in full time education and those over 60 amongst others. For a full list of those eligible click here
             <br /><br />Emergency appointments for minor eye conditions are available. This is known as NI PEARS (Northern Ireland Primary Eyecare Assessment and Referral Service).</p>
-            <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7'>Learn more</div>
+            <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7'>
+              Learn more
+            </div>
+            <br /><br />
         </div>
-        <div className="flex justify-end w-full md:w-1/2 relative">
+        <div className="flex justify-center md:justify-end w-full md:w-1/2 relative">
         <Image
           src="/images/homepage/8.webp"
           width={490}
