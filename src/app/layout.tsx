@@ -4,9 +4,38 @@ import './globals.css'
 
 const source_sans = Source_Sans_3({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
+
+export const metadata = {
   title: 'Watsons Opticians',
-  description: 'Watsons Opticians',
+  description: 'Watsons Opticians. Family opticians based in Ballycastle and Portrush',
+  keywords: ['Opticians', 'Optometrists', 'Frames', 'Contact Lenses'],
+  metadataBase: new URL('https://watsonsopticians.com/'),
+  icons: {
+    icon: '/favicon.ico',
+  },
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    images: '/images/logo.webp',
+    title: 'Watsons Opticians',
+    description: 'Watsons Opticians. Family opticians based in Ballycastle and Portrush',
+    url: 'https://watsonsopticians.com/',
+    siteName: 'Watsons Opticians',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: false,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function RootLayout({
