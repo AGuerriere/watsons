@@ -53,7 +53,7 @@ export default function Home() {
       </div>
       {/* Section 3 */}
       <div className='bg-green1 flex flex-col md:flex-row text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 md:pl-20 w-[100vw] mb-10'>
-        <div className='w-full h- md:w-1/2 pt-10 pl-7 md:pl-0'>
+        <div className='w-full h- md:w-2/3 pt-10 pl-7 md:pl-0'>
           <GoldTitle text='Free NHS Service' />
           <br />
           <h2 className='text-white text-2xl xl:text-5xl text-black font-normal pb-10'>Our Products and Services</h2>
@@ -64,13 +64,16 @@ export default function Home() {
             </div>
             <br /><br />
         </div>
-        <div className="flex justify-center md:justify-end w-full md:w-1/2 relative">
+        <div className="flex justify-center md:justify-end w-full md:w-2/3 relative min-h-[400px]">
         <Image
           src="/images/homepage/8.webp"
-          width={490}
-          height={450}
+          fill
+          sizes="100%"
+          style={{
+            objectFit: 'cover',
+          }}
           alt="Picture of a patient undergoing an eye test"
-          className='order-2 xl:order-1 -pl-7'
+          className='order-2 xl:order-1 -pl-7 w-auto'
         />
       </div>
 </div>
