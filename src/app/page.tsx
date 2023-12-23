@@ -69,11 +69,9 @@ export default function Home() {
             src="/images/homepage/8.webp"
             fill
             sizes="100%"
-            style={{
-              objectFit: 'cover',
-            }}
+    
             alt="Picture of a patient undergoing an eye test"
-            className='order-2 xl:order-1 -pl-7 w-auto'
+            className='order-2 xl:order-1 -pl-7 w-auto object-cover'
           />
         </div>
       </div>

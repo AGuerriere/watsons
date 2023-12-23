@@ -16,13 +16,13 @@ export default function Card(props: propsType) {
         <p className="text-sm md:text-base">{props.paragraph}</p>
         <LearnMore text="Learn More" />
       </div>
-      <div className="w-full md:w-1/2 h-48 md:h-full relative">
+      <div className="w-full md:w-1/2 h-fill md:h-full relative">
         <Image
             src={props.img}
+            fill={true} 
             alt="Picture of a patient undergoing an eye test"
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover object-center"
           />
       </div>
       </div>
