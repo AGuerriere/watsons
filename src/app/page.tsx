@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import GoldTitle from '@/components/GoldTitle'
 import LearnMore from '@/components/LearnMore'
 import Card from '@/components/Card'
+import GoldButton from '@/components/GoldButton'
 
 export default function Home() {
   return (
@@ -82,14 +83,13 @@ export default function Home() {
             <GoldTitle text="Contact us"/>
             <h4 className="font-normal text-black text-lg md:text-xl lg:text-2xl">Get in touch!</h4>
             <p>To arrange an appointment or register as a new customers please fill in the form below and we will get back to you within 48 hours: </p>
-            <form action="GET">
-              <input type="text" name="name" id="name" />
-              <input type="email" name="email" id="email" />
-              <input type="tel" name="tel" id="tel" />
-              <input type="text" name="subject" id="subject" />
-              <input type="text" name="text" id="text" />
-
-              
+            <form action="POST" data-netlify="true" className="flex flex-col mb-10">
+              <input type="text" name="name" id="name" placeholder="Name*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
+              <input type="email" name="email" id="email" placeholder="Email*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
+              <input type="tel" name="tel" id="tel" placeholder="Mobile Number*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
+              <input type="text" name="subject" id="subject" placeholder="Subject" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
+              <input type="text" name="text" id="text" placeholder="Type your message here" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
+              <GoldButton text='Book Appointment'></GoldButton>
             </form>
           </div>
           <div></div>

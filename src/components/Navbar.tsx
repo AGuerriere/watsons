@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react"
+import GoldButton from "./GoldButton";
 
 export default function Navbar() {
   const [hidden, toggleHidden] = useState(1)
@@ -28,7 +29,7 @@ export default function Navbar() {
       <div>Eye Wear</div>
       <div>Contact Lenses</div>
       <div>Eye Conditions</div>
-      <div className="bg-gold text-white w-48 h-11 flex justify-center items-center rounded">Book Appointment</div>
+      <GoldButton text='Book Appointment'></GoldButton>
     </nav>
 
     {/* Mobile navbar closed */}
@@ -75,7 +76,7 @@ export default function Navbar() {
         <div>Eye Wear</div>
         <div>Contact Lenses</div>
         <div>Eye Conditions</div>
-        <div className="bg-gold text-white w-48 h-11 flex justify-center items-center rounded">Book Appointment</div>
+        <GoldButton text='Book Appointment'></GoldButton>
       </div>
     </nav>
     </>
