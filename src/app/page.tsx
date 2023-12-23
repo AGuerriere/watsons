@@ -79,13 +79,18 @@ export default function Home() {
       </div>
       {/* Form Section */}
       <div>
-        <h2 className='text-white text-2xl xl:text-5xl text-black font-normal pb-10'>Book your appointment today</h2>
+        <h2 className='text-black text-2xl xl:text-5xl text-black font-normal pb-10'>Book your appointment today!</h2>
         <div className='flex'>
           <div>
             <GoldTitle text="Contact us"/>
             <h4 className="font-normal text-black text-lg md:text-xl lg:text-2xl">Get in touch!</h4>
             <p>To arrange an appointment or register as a new customers please fill in the form below and we will get back to you within 48 hours: </p>
             <form action="GET">
+              <input type="text" name="name" id="name" />
+              <input type="email" name="email" id="email" />
+              <input type="tel" name="tel" id="tel" />
+              <input type="text" name="subject" id="subject" />
+              <input type="text" name="text" id="text" />
 
               
             </form>
