@@ -21,7 +21,7 @@ export default function Card(props: propsType) {
             src={props.img}
             fill={true} 
             alt="Picture of a patient undergoing an eye test"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
             className="object-cover object-center"
           />
       </div>

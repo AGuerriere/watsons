@@ -45,7 +45,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${source_sans.className} text-grey1 ml-7 mr-7 md:ml-20 md:mr-20`}>{children}</body>
+      <body className={`${source_sans.className} text-grey1 ml-7 mr-7 md:ml-20 md:mr-20 overflow-x-hidden`}>{children}</body>
     </html>
   )
 }
