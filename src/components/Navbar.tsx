@@ -14,12 +14,12 @@ export default function Navbar() {
   return (
     <>
     {/* Desktop Navbar */}
-    <nav className="hidden lg:flex h-[10vh] md:justify-between items-center text-sm lg:text-xl">
+    <nav className="hidden lg:flex h-[100px] md:justify-between items-center text-sm lg:text-xl">
       <div className="">
         <Image
           src="/images/logo.webp"
-          width={200}
-          height={54}
+          width={163}
+          height={80}
           alt="Watsons Opticians Logo"
         />
     </div>
@@ -33,7 +33,7 @@ export default function Navbar() {
     </nav>
 
     {/* Mobile navbar closed */}
-    <nav className={`${hidden === 1 ? 'flex' : 'hidden'} lg:hidden justify-start items-center h-[10vh]`}>
+    <nav className={`${hidden === 1 ? 'flex' : 'hidden'} lg:hidden justify-start items-center h-[100px]`}>
       <Image
           src="/images/menu.svg"
           width={50}

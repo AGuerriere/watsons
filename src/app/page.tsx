@@ -10,16 +10,16 @@ export default function Home() {
     <>
       <Navbar />
       {/* Header */}
-      <div className="text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 h-[90vh] bg-[url('/images/header.webp')] bg-cover bg-no-repeat bg-center">
+      <div className="text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 min-h-[400px] h-[calc(100vh-100px)] bg-[url('/images/header.webp')] bg-cover bg-no-repeat bg-center">
         <div className='bg-greenOverlay h-full pl-7 md:pl-20 '>
-          <div className='flex pl:14 flex-col justify-center h-full'>
-            <h1 className='text-5xl font-bold leading-normal xl:text-7xl md:w-4/5 lg:w-3/5 md:leading-normal xl:leading-normal lg:w-2/5'>
-              <span className='text-gold'>Family-owned</span> and operated optometry practice with over 40 years of experience.
-            </h1>
-            <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7'>Learn more</div>
-          </div>
+            <div className='flex pl:14 flex-col justify-center h-full'>
+                <h1 className='text-5xl font-bold leading-normal xl:text-7xl md:w-4/5 lg:w-3/5 md:leading-normal xl:leading-normal lg:w-2/5'>
+                    <span className='text-gold'>Family-owned</span> and operated optometry practice with over 40 years of experience.
+                </h1>
+                <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7 mb-5'>Learn more</div>
+            </div>
         </div>
-      </div>
+    </div>
       {/* Section 1*/}
       <div className='flex flex-wrap xl:flex-nowrap mt-20 pb-20'>
         <Image
@@ -89,7 +89,7 @@ export default function Home() {
               <input type="tel" name="tel" id="tel" placeholder="Mobile Number*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
               <input type="text" name="subject" id="subject" placeholder="Subject" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
               <input type="text" name="text" id="text" placeholder="Type your message here" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
-              <GoldButton text='Book Appointment'></GoldButton>
+              <button><GoldButton text='Book Appointment'></GoldButton></button>
             </form>
           </div>
           <div></div>
