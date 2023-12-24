@@ -78,11 +78,11 @@ export default function Home() {
       {/* Form Section */}
       <div>
         <h2 className='text-black text-2xl xl:text-5xl text-black font-normal pb-10'>Book your appointment today!</h2>
-        <div className='flex'>
-          <div>
+        <div className='flex md:flex-row flex-col'>
+          <div className='w-full md:w-1/2'>
             <GoldTitle text="Contact us"/>
-            <h4 className="font-normal text-black text-lg md:text-xl lg:text-2xl">Get in touch!</h4>
-            <p>To arrange an appointment or register as a new customers please fill in the form below and we will get back to you within 48 hours: </p>
+            <h4 className="font-normal text-black md:text-lg md:text-xl lg:text-2xl">Get in touch!</h4>
+            <p className='text-grey1 text-2xl'>To arrange an appointment or register as a new customers please fill in the form below and we will get back to you within 48 hours: </p>
             <form action="POST" data-netlify="true" className="flex flex-col mb-10">
               <input type="text" name="name" id="name" placeholder="Name*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
               <input type="email" name="email" id="email" placeholder="Email*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
@@ -92,7 +92,9 @@ export default function Home() {
               <button><GoldButton text='Book Appointment'></GoldButton></button>
             </form>
           </div>
-          <div></div>
+          <div>
+            <GoldTitle text="Locations"></GoldTitle>
+          </div>
         </div>
       </div>
     </>
