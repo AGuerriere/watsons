@@ -5,6 +5,7 @@ import LearnMore from '@/components/LearnMore'
 import Card from '@/components/Card'
 import GoldButton from '@/components/GoldButton'
 import Footer from '@/components/Footer'
+import H2Title from '@/components/H2Title'
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
         <br /><br />
         <div className='flex order-1 xl:order-2 flex-col justify-around xl:ml-20'>
           <GoldTitle text="At Watsons" />
-          <h2 className='text-2xl xl:text-5xl text-black font-normal'>We’re passionate about making eyecare accessible</h2>
+          <H2Title title="We’re passionate about making eyecare accessible" />
           <p className='text-base xl:text-grey1 xl:text-2xl font-light leading-normal'>
             See better and look great with our wide range of glasses, contact lenses and sunglasses from leading brands.
             <br /><br />
@@ -44,7 +45,7 @@ export default function Home() {
         </div>
       </div>
       {/* Section 2*/}
-      <h2 className='text-2xl xl:text-5xl text-black font-normal pb-10'>Our Products and Services</h2>
+      <H2Title title="Our Products and Services" />
       <div className='flex flex-col md:flex-row md:flex-wrap'>
         <Card title="Eye Tests" img="/images/homepage/3.webp" paragraph="An eye test is not just about finding out if you need glasses or contact lenses. It is a vital health check for your eyes. " />
         <Card title="Eye Wear" img="/images/homepage/1.webp" paragraph="We offer a wide selection to cater for different prescriptions, and lifestyle requirements." />
@@ -78,7 +79,7 @@ export default function Home() {
       </div>
       {/* Form Section */}
       <div className="mb-10">
-        <h2 className='text-black text-2xl xl:text-5xl text-black font-normal pb-10'>Book your appointment today!</h2>
+       <H2Title title="Book your appointment today!"/>
         <div className='flex lg:flex-row flex-col'>
           <div className='w-full md:w-1/2'>
             <GoldTitle text="Contact us"/>
