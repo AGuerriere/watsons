@@ -24,8 +24,8 @@ export default function Navbar() {
           alt="Watsons Opticians Logo"
         />
     </div>
-      <Link href="/">Home</Link>
-      <Link href="/about">About Us</Link>
+      <Link href="/" className="active:text-black">Home</Link>
+      <Link href="/about" className="active:text-black">About Us</Link>
       <div>Eye Tests</div>
       <div>Eye Wear</div>
       <div>Contact Lenses</div>

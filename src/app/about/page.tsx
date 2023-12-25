@@ -18,6 +18,11 @@ export default function About () {
           </div>
         </div>
       </div>
+      {/* Section 2 */}
+      <div className="bg-green1 -ml-7 -mr-7 md:-ml-20 md:-mr-20 pl-7 pr-7 md:pl-20 md:pr-20 text-white min-h-[290px] pt-10 pb-10">
+        <GoldTitle text="Our Vision" />
+        <p className="font-light leading-normal text-xl md:text-[40px]">Our vision is to be the leading optometry practice in the area, offering the best eye care solutions and the latest trends in eyewear.</p>
+      </div>
       <Footer />
     </>
   )
