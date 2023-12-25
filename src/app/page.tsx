@@ -77,7 +77,7 @@ export default function Home() {
         </div>
       </div>
       {/* Form Section */}
-      <div>
+      <div className="mb-10">
         <h2 className='text-black text-2xl xl:text-5xl text-black font-normal pb-10'>Book your appointment today!</h2>
         <div className='flex lg:flex-row flex-col'>
           <div className='w-full md:w-1/2'>
@@ -93,7 +93,7 @@ export default function Home() {
               <button><GoldButton text='Submit  '></GoldButton></button>
             </form>
           </div>
-          <div className='flex flex-col justify-between lg:ml-10'>
+          <div className='flex flex-col justify-between lg:ml-10 min-h-[500px]'>
             <GoldTitle text="Locations"></GoldTitle>
               <h4 className='text-2xl font-normal text-black'>Portrush</h4>
               <p>
