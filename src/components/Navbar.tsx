@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react"
 import GoldButton from "./GoldButton";
+import Link from "next/link";
 
 export default function Navbar() {
   const [hidden, toggleHidden] = useState(1)
@@ -23,8 +24,8 @@ export default function Navbar() {
           alt="Watsons Opticians Logo"
         />
     </div>
-      <div>Home</div>
-      <div>About Us</div>
+      <Link href="/">Home</Link>
+      <Link href="/about">About Us</Link>
       <div>Eye Tests</div>
       <div>Eye Wear</div>
       <div>Contact Lenses</div>

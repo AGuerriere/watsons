@@ -94,7 +94,7 @@ export default function Home() {
             </form>
           </div>
           <div className='flex flex-col justify-between lg:ml-10 min-h-[500px]'>
-            <GoldTitle text="Locations"></GoldTitle>
+            <GoldTitle text="Locations" />
               <h4 className='text-2xl font-normal text-black'>Portrush</h4>
               <p className='font-light'>
                 10 Main St, Portrush, BT56 8BL <br />
@@ -122,7 +122,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer />
 
 
     </>
