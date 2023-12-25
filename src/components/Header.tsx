@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 type propsType = {
   title: string,
   image: string,
@@ -8,8 +6,17 @@ type propsType = {
 export default function Header (props: propsType) {
   return (
     <>
-        {console.log(props.image)}
-        <h1>{props.title}</h1> {/* Displaying the title */}
+<div 
+  style={{ 
+    backgroundImage: `url(${props.image})`,
+    backgroundPosition: 'center 20%'  // Centers horizontally and positions 20% from the top
+  }} 
+  className="text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 h-[225px] bg-cover bg-no-repeat bg-center"
+>        
+  <div className='flex items-center bg-greenOverlay h-full pl-7 md:pl-20 '>
+          <h1 className="text-5xl md:text-6xl font-bold">{props.title}</h1>
+        </div>
+      </div>
     </>
   )
 }
