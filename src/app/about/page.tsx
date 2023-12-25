@@ -23,6 +23,9 @@ export default function About () {
         <GoldTitle text="Our Vision" />
         <p className="font-light leading-normal text-xl md:text-[40px]">Our vision is to be the leading optometry practice in the area, offering the best eye care solutions and the latest trends in eyewear.</p>
       </div>
+      {/* Section 3 */}
+      
+      <p></p>
       <Footer />
     </>
   )

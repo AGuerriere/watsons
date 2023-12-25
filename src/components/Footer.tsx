@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="flex flex-row items-center justify-evenly bg-green1 -ml-7 -mr-7 md:-ml-20 md:-mr-20 text-white min-h-[290px] pt-10 pb-10">
           <div className="min-h-[290px]">
             <Image
-              src="/images/logo-footer.svg"
+              src="/images/white-logo.webp"
               width={163}
               height={80}
               alt="Watsons Opticians Logo"
