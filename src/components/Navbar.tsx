@@ -71,8 +71,8 @@ export default function Navbar() {
         />
       
       <div className="flex flex-col h-2/5 items-center justify-between">
-        <div>Home</div>
-        <div>About Us</div>
+      <Link href="/" className="active:text-black" onClick={() => triggerToggle()}>Home</Link>
+      <Link href="/about" className="active:text-black" onClick={() => triggerToggle()}>About Us</Link>
         <div>Eye Tests</div>
         <div>Eye Wear</div>
         <div>Contact Lenses</div>
