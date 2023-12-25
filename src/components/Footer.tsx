@@ -12,6 +12,7 @@ export default function Footer() {
               width={163}
               height={80}
               alt="Watsons Opticians Logo"
+              className="pl-1 pr-2 md:p-0"
             />
           </div>
           <div className="flex flex-col justify-between min-h-[290px]">
