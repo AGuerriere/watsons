@@ -4,6 +4,7 @@ import GoldTitle from '@/components/GoldTitle'
 import LearnMore from '@/components/LearnMore'
 import Card from '@/components/Card'
 import GoldButton from '@/components/GoldButton'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -78,7 +79,7 @@ export default function Home() {
       {/* Form Section */}
       <div>
         <h2 className='text-black text-2xl xl:text-5xl text-black font-normal pb-10'>Book your appointment today!</h2>
-        <div className='flex md:flex-row flex-col'>
+        <div className='flex lg:flex-row flex-col'>
           <div className='w-full md:w-1/2'>
             <GoldTitle text="Contact us"/>
             <h4 className="font-normal text-black md:text-lg md:text-xl lg:text-2xl">Get in touch!</h4>
@@ -89,14 +90,41 @@ export default function Home() {
               <input type="tel" name="tel" id="tel" placeholder="Mobile Number*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
               <input type="text" name="subject" id="subject" placeholder="Subject" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
               <input type="text" name="text" id="text" placeholder="Type your message here" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
-              <button><GoldButton text='Book Appointment'></GoldButton></button>
+              <button><GoldButton text='Submit  '></GoldButton></button>
             </form>
           </div>
-          <div>
+          <div className='flex flex-col justify-between lg:ml-10'>
             <GoldTitle text="Locations"></GoldTitle>
+              <h4 className='text-2xl font-normal text-black'>Portrush</h4>
+              <p>
+                10 Main St, Portrush, BT56 8BL <br />
+                Call us on 028 7082 3677
+              </p>
+              <h5 className='text-black text-xl'>Opening Hours</h5> 
+              <p>
+                Monday - Thursday: 9:00 - 17:00
+                Friday: 9:00 - 15:00
+                Saturday: Closed
+                Sunday : Closed
+              </p>
+              <h4 className='text-2xl font-normal text-black'>Ballycastle</h4>
+              <p>
+                41 Ann St, Ballycastle, BT54 6AA <br />
+                Call us on 028 2076 2431 
+              </p>
+              <h5 className='text-black text-xl'>Opening Hours</h5>
+              <p>
+              Monday - Thursday: 9:00 - 17:00 <br />
+              Friday: 9:00 - 15:00 <br />
+              Saturday: Closed <br />
+              Sunday : Closed <br />
+              </p>
           </div>
         </div>
       </div>
+      <Footer></Footer>
+
+
     </>
 
   )
