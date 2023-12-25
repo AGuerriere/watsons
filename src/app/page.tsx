@@ -82,8 +82,8 @@ export default function Home() {
         <div className='flex lg:flex-row flex-col'>
           <div className='w-full md:w-1/2'>
             <GoldTitle text="Contact us"/>
-            <h4 className="font-normal text-black md:text-lg md:text-xl lg:text-2xl">Get in touch!</h4>
-            <p className='text-grey1 text-2xl'>To arrange an appointment or register as a new customers please fill in the form below and we will get back to you within 48 hours: </p>
+            <h4 className="font-normal text-black text-base md:text-lg md:text-xl lg:text-3xl">Get in touch!</h4> <br />
+            <p className='text-grey1 text-base mb-2 md:text-xl lg:text-2xl font-light'>To arrange an appointment or register as a new customers please fill in the form below and we will get back to you within 48 hours: </p>
             <form action="POST" data-netlify="true" className="flex flex-col mb-10">
               <input type="text" name="name" id="name" placeholder="Name*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
               <input type="email" name="email" id="email" placeholder="Email*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
@@ -96,24 +96,24 @@ export default function Home() {
           <div className='flex flex-col justify-between lg:ml-10 min-h-[500px]'>
             <GoldTitle text="Locations"></GoldTitle>
               <h4 className='text-2xl font-normal text-black'>Portrush</h4>
-              <p>
+              <p className='font-light'>
                 10 Main St, Portrush, BT56 8BL <br />
                 Call us on 028 7082 3677
               </p>
               <h5 className='text-black text-xl'>Opening Hours</h5> 
-              <p>
+              <p className='font-light'>
                 Monday - Thursday: 9:00 - 17:00
                 Friday: 9:00 - 15:00
                 Saturday: Closed
                 Sunday : Closed
               </p>
               <h4 className='text-2xl font-normal text-black'>Ballycastle</h4>
-              <p>
+              <p className='font-light'>
                 41 Ann St, Ballycastle, BT54 6AA <br />
                 Call us on 028 2076 2431 
               </p>
               <h5 className='text-black text-xl'>Opening Hours</h5>
-              <p>
+              <p className='font-light'>
               Monday - Thursday: 9:00 - 17:00 <br />
               Friday: 9:00 - 15:00 <br />
               Saturday: Closed <br />
