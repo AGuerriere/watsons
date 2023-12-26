@@ -8,7 +8,7 @@ export default function About() {
   return (
     <>
       <Navbar />
-      <Header title="About Us" image="/images/header.webp" />
+      <Header title="About Us" image="/images/header.webp" percentage="20%"/>
       {/* Section 1 */}
       <div className="flex flex-col md:flex-row mt-10 mb-10">
         <div className="md:w-1/2"><p className="text-base md:text-2xl md:w-3/5 mr-10 font-light">We are Watsons Opticians, a family-owned and operated optometry practice that has been serving the community since 1985. We are well-known and respected in the area with a loyal and satisfied customer base.</p></div>

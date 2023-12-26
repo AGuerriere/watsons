@@ -1,6 +1,7 @@
 type propsType = {
   title: string,
   image: string,
+  percentage: string,
 }
 
 export default function Header (props: propsType) {
@@ -9,7 +10,7 @@ export default function Header (props: propsType) {
 <div 
   style={{ 
     backgroundImage: `url(${props.image})`,
-    backgroundPosition: 'center 20%'  // Centers horizontally and positions 20% from the top
+    backgroundPosition: `center ${props.percentage}`  // Centers horizontally and positions 20% from the top
   }} 
   className="text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 h-[225px] bg-cover bg-no-repeat bg-center"
 >        
