@@ -56,7 +56,7 @@ export default function Home() {
       </div>
       {/* Section 3 */}
       <div className='bg-green1 flex flex-col md:flex-row text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 md:pl-20 w-[100vw] mb-10'>
-        <div className='w-full h- md:w-2/3 pt-10 pl-7 md:pl-0'>
+        <div className='w-full md:w-2/3 pt-10 pl-7 md:pl-0'>
           <GoldTitle text='Free NHS Service' />
           <br />
           <h2 className='text-white text-2xl xl:text-5xl text-black font-normal pb-10'>Our Products and Services</h2>

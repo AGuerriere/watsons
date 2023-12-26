@@ -26,7 +26,7 @@ export default function Navbar() {
     </div>
       <Link href="/" className="active:text-black">Home</Link>
       <Link href="/about" className="active:text-black">About Us</Link>
-      <div>Eye Tests</div>
+      <Link href="/eye_tests">Eye Tests</Link>
       <div>Eye Wear</div>
       <div>Contact Lenses</div>
       <div>Eye Conditions</div>
@@ -71,9 +71,9 @@ export default function Navbar() {
         />
       
       <div className="flex flex-col h-2/5 items-center justify-between">
-      <Link href="/" className="active:text-black" onClick={() => triggerToggle()}>Home</Link>
-      <Link href="/about" className="active:text-black" onClick={() => triggerToggle()}>About Us</Link>
-        <div>Eye Tests</div>
+        <Link href="/" className="active:text-black" onClick={() => triggerToggle()}>Home</Link>
+        <Link href="/about" className="active:text-black" onClick={() => triggerToggle()}>About Us</Link>
+        <Link href="/eye_tests" className="active:text-black" onClick={() => triggerToggle()}>Eye Tests</Link>
         <div>Eye Wear</div>
         <div>Contact Lenses</div>
         <div>Eye Conditions</div>
