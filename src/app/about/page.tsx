@@ -61,7 +61,7 @@ export default function About() {
             <div className="p-4 md:p-10">
               <h5 className="text-black text-base md:text-3xl font-light">Tony Watson,</h5>
               <h6 className="text-gold text-light text-base md:text-2xl">Owner and Optometrist</h6>
-              <p className="font-light md:text-2xl text-base aspect-square sm:aspect-auto">Tony is the founder and owner of Watsons Opticians, as well as a qualified and experienced optometrist. He has a passion for eye care and a vision for excellence. He oversees the daily operations of the practice and ensures that every customer receives the best service and care possible. He says: “I get a lot of satisfaction from what I do and I love seeing the smiles on our customers’ faces when they find the perfect pair of glasses or contact lenses. I am proud of our team and our reputation in the community”.</p>
+              <p className="pt-5 font-light md:text-2xl text-base aspect-square sm:aspect-auto">Tony is the founder and owner of Watsons Opticians, as well as a qualified and experienced optometrist. He has a passion for eye care and a vision for excellence. He oversees the daily operations of the practice and ensures that every customer receives the best service and care possible. He says: “I get a lot of satisfaction from what I do and I love seeing the smiles on our customers’ faces when they find the perfect pair of glasses or contact lenses. I am proud of our team and our reputation in the community”.</p>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function About() {
             <div className="p-4 md:p-10">
               <h5 className="text-black text-base md:text-3xl font-light">Valerie Watson,</h5>
               <h6 className="text-gold text-light text-base md:text-2xl">Co-owner and Optical Clinical Assistant</h6>
-              <p className="font-light md:text-2xl text-base aspect-square sm:aspect-auto">Valerie is the co-owner and Optical Clinical Assistant of Watsons Opticians. She is also Tony’s wife and partner in life and business. As buyer for the business she strives to provide a wide range of products to meet our customers’ needs. She says: “I enjoy helping our customers look and feel great with their glasses or contact lenses. I also love working with my husband and our amazing staff. We are like a family here at Watsons Opticians”.</p>
+              <p className="pt-5 font-light md:text-2xl text-base aspect-square sm:aspect-auto">Valerie is the co-owner and Optical Clinical Assistant of Watsons Opticians. She is also Tony’s wife and partner in life and business. As buyer for the business she strives to provide a wide range of products to meet our customers’ needs. She says: “I enjoy helping our customers look and feel great with their glasses or contact lenses. I also love working with my husband and our amazing staff. We are like a family here at Watsons Opticians”.</p>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function About() {
             <div className="p-4 md:p-10">
               <h5 className="text-black text-base md:text-3xl font-light">Christine Mc Collum, </h5>
               <h6 className="text-gold text-light text-base md:text-2xl">Senior Optical Assistant</h6>
-              <p className="font-light md:text-2xl text-base aspect-square sm:aspect-auto">Christine handles the bookings, the payments and also cuts and fits lenses to frames in our glazing lab. She says: “Watsons Opticians is a family friendly practice and I enjoy helping to contribute to its growth and success. I like to interact with our customers and to spread the word about our products and services. I like the fact that we are a progressive practice and we are all constantly learning new techniques and treatments”</p>
+              <p className="pt-5 font-light md:text-2xl text-base aspect-square sm:aspect-auto">Christine handles the bookings, the payments and also cuts and fits lenses to frames in our glazing lab. She says: “Watsons Opticians is a family friendly practice and I enjoy helping to contribute to its growth and success. I like to interact with our customers and to spread the word about our products and services. I like the fact that we are a progressive practice and we are all constantly learning new techniques and treatments”</p>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function About() {
             <div className="p-4 md:p-10">
               <h5 className="text-black text-base md:text-3xl font-light">Katrina Watt,</h5>
               <h6 className="text-gold text-light text-base md:text-2xl">Optical Assistant</h6>
-              <p className="font-light md:text-2xl text-base aspect-square sm:aspect-auto">Katrina is our newest member of staff. She has previous experience working in the optics industry and brings some new approaches to our practice. Her specialist knowledge is in contact lenses.</p>
+              <p className="pt-5 font-light md:text-2xl text-base aspect-square sm:aspect-auto">Katrina is our newest member of staff. She has previous experience working in the optics industry and brings some new approaches to our practice. Her specialist knowledge is in contact lenses.</p>
             </div>
           </div>
         </div>
