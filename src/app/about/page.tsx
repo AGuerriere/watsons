@@ -66,8 +66,8 @@ export default function About() {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row border mb-10">
-        <div className="bg-greenOverlay w-full sm:w-1/3 aspect-square order-2"></div>
-          <div className="sm:h-auto w-full order-1">
+        <div className="bg-greenOverlay w-full sm:w-1/3 aspect-square sm:order-2"></div>
+          <div className="sm:h-auto w-full sm:order-1">
             <div className="p-4 md:p-10">
               <h5 className="text-black text-base md:text-3xl font-light">Valerie Watson,</h5>
               <h6 className="text-gold text-light text-base md:text-2xl">Co-owner and Optical Clinical Assistant</h6>
@@ -86,8 +86,8 @@ export default function About() {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row border mb-10">
-        <div className="bg-greenOverlay w-full sm:w-1/3 aspect-square order-2"></div>
-          <div className="sm:h-auto w-full order-1">
+        <div className="bg-greenOverlay w-full sm:w-1/3 aspect-square sm:order-2"></div>
+          <div className="sm:h-auto w-full sm:order-1">
             <div className="p-4 md:p-10">
               <h5 className="text-black text-base md:text-3xl font-light">Katrina Watt,</h5>
               <h6 className="text-gold text-light text-base md:text-2xl">Optical Assistant</h6>
