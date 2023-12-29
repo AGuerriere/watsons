@@ -78,7 +78,7 @@ export default function Home() {
         </div>
       </div>
       {/* Form Section */}
-      <div className="mb-10">
+      <div id="contact-us" className="mb-10">
        <H2Title title="Book your appointment today!"/>
         <div className='flex lg:flex-row flex-col'>
           <div className='w-full md:w-1/2'>

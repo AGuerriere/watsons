@@ -30,7 +30,7 @@ export default function Navbar() {
       <div>Eye Wear</div>
       <div>Contact Lenses</div>
       <div>Eye Conditions</div>
-      <GoldButton text='Book Appointment'></GoldButton>
+      <Link href="/#contact-us"><GoldButton text='Book Appointment'></GoldButton></Link>
     </nav>
 
     {/* Mobile navbar closed */}
@@ -77,7 +77,7 @@ export default function Navbar() {
         <div>Eye Wear</div>
         <div>Contact Lenses</div>
         <div>Eye Conditions</div>
-        <GoldButton text='Book Appointment'></GoldButton>
+        <Link href="/#contact-us" onClick={() => triggerToggle()}><GoldButton text='Book Appointment'></GoldButton></Link>
       </div>
     </nav>
     </>

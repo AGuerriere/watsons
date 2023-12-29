@@ -12,6 +12,8 @@ export default function EyeTests() {
       <Navbar />
       <Header title="Eye Tests" image="/images/homepage/3.webp" percentage="40%" />
       {/* Section 1 */}
+
+      
       {/* Section 2 */}
       <div className="flex flex-col sm:flex-row">
         <div className="flex justify-center md:justify-end w-full md:w-1/2 relative min-h-[500px] md:min-h-[700px]">
