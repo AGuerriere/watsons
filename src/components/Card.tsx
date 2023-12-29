@@ -5,6 +5,8 @@ type propsType = {
   title: string,
   paragraph: string,
   img: string,
+  link:string,
+  target:string,
 }
 
 export default function Card(props: propsType) {
@@ -14,7 +16,7 @@ export default function Card(props: propsType) {
       <div className="w-full md:w-1/2 p-3 md:p-5">
         <h4 className="font-normal text-black text-lg md:text-xl lg:text-2xl">{props.title}</h4>
         <p className="text-sm md:text-base">{props.paragraph}</p>
-        <LearnMore text="Learn More" />
+        <LearnMore text="Learn More" target={props.target} link={props.link}/>
       </div>
       <div className="w-full md:w-1/2 h-fill md:h-full relative">
         <Image

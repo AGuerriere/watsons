@@ -72,7 +72,7 @@ export default function EyeTests() {
           <p className="sm:w-2/5 text-base font-light md:text-2xl">The NHS cover the cost of a sight test for a wide range of people including children aged 16 and under, 16–18-year-olds in full time education and those over 60 amongst others. For a full list of those eligible click here</p>
           <div className="sm:w-2/5 text-base font-light md:text-2xl">
             <p className="mb-3 md:mb-5">Emergency appointments for minor eye conditions are available. This is known as NI PEARS (Northern Ireland Primary Eyecare Assessment and Referral Service)</p>
-            <LearnMore text="Learn more about NI PEARS " />
+            <LearnMore text="Learn more about NI PEARS " target="_blank" link="https://online.hscni.net/our-work/ophthalmic-services/eyes/"/>
           </div>
         </div>
       </div>

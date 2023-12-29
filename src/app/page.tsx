@@ -41,18 +41,18 @@ export default function Home() {
             We offer comprehensive eye tests, diagnosis and treatment for various eye conditions using the latest technology and equipment. We are the only opticians in Northern Ireland offering Repeated Low Level Red Light Therapy to slow down progression of myopia in children.
           </p>
           <br /><br />
-          <LearnMore text="Learn more about us" />
+          <LearnMore link="/" target="_self" text="Learn more about us" />
         </div>
       </div>
       {/* Section 2*/}
       <H2Title title="Our Products and Services" />
       <div className='flex flex-col md:flex-row md:flex-wrap'>
-        <Card title="Eye Tests" img="/images/homepage/3.webp" paragraph="An eye test is not just about finding out if you need glasses or contact lenses. It is a vital health check for your eyes. " />
-        <Card title="Eye Wear" img="/images/homepage/1.webp" paragraph="We offer a wide selection to cater for different prescriptions, and lifestyle requirements." />
-        <Card title="Contact Lenses" img="/images/homepage/2.webp" paragraph="If you prefer contact lenses, we can help you find the best fit and type for your eyes." />
-        <Card title="PEARS (NHS free service)" img="/images/homepage/5.webp" paragraph="The NHS has launched a new free eye care service for people with minor eye conditions." />
-        <Card title="Dry eye clinic" img="/images/homepage/7.webp" paragraph="With the help of our Dry Eye clinic we can recommend the best tailored plan to minimise any discomfort. " />
-        <Card title="Myopia management" img="/images/homepage/6.webp" paragraph="Repeated Low Level Red Light (RLRL) therapy designed to slow down the progression of myopia." />
+        <Card title="Eye Tests" target="_self" link="/"img="/images/homepage/3.webp" paragraph="An eye test is not just about finding out if you need glasses or contact lenses. It is a vital health check for your eyes. " />
+        <Card title="Eye Wear" target="_self"  link="/"img="/images/homepage/1.webp" paragraph="We offer a wide selection to cater for different prescriptions, and lifestyle requirements." />
+        <Card title="Contact Lenses" target="_self"  link="/"img="/images/homepage/2.webp" paragraph="If you prefer contact lenses, we can help you find the best fit and type for your eyes." />
+        <Card title="PEARS (NHS free service)" link="https://online.hscni.net/our-work/ophthalmic-services/eyes/" target="_blank" img="/images/homepage/5.webp" paragraph="The NHS has launched a new free eye care service for people with minor eye conditions." />
+        <Card title="Dry eye clinic"target="_self"  link="/"img="/images/homepage/7.webp" paragraph="With the help of our Dry Eye clinic we can recommend the best tailored plan to minimise any discomfort. " />
+        <Card title="Myopia management" target="_self" link="/" img="/images/homepage/6.webp" paragraph="Repeated Low Level Red Light (RLRL) therapy designed to slow down the progression of myopia." />
       </div>
       {/* Section 3 */}
       <div className='bg-green1 flex flex-col md:flex-row text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 md:pl-20 w-[100vw] mb-10'>
