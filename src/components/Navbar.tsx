@@ -52,7 +52,7 @@ export default function Navbar() {
       
     </nav>
      {/* Mobile navbar open */}
-     <nav className={`${hidden === 1 ? 'hidden' : 'flex'} bg-white flex-col w-[100vw] h-[100vh] pt-4 fixed top-0 left-0 z-100 items-center text-xl`}>
+     <nav className={`${hidden === 1 ? 'hidden' : 'flex'} bg-white flex-col w-[100vw] h-[100vh] pt-4 fixed top-0 left-0 z-[100] items-center text-xl`}>
       <div>
         <Image
           src="/images/logo.webp"
