@@ -7,6 +7,7 @@ import LearnMore from "@/components/LearnMore"
 import Image from "next/image"
 import Link from "next/link"
 import GoldButton from "@/components/GoldButton"
+import Checkmark from "@/components/Checkmark"
 
 export default function EyeTests() {
   return (
@@ -14,8 +15,9 @@ export default function EyeTests() {
       <Navbar />
       <Header title="Eye Tests" image="/images/homepage/3.webp" percentage="40%" />
       {/* Section 1 */}
-      <div className="mb-10 mt-5">
+      <div className="mb-10 mt-10">
         <GoldTitle text="Eye Tests" />
+        <br />
         <H2Title title="Why get an eye test" />
         <div className="flex flex-col sm:flex-row sm:justify-between">
           <div className="sm:w-2/5">
@@ -30,8 +32,12 @@ export default function EyeTests() {
             <br />
             <Link href="/#contact-us"><GoldButton text='Book Appointment'></GoldButton></Link>
           </div>
-          <div>
-            <p className="text-neutral-500 text-base sm:text-2xl sm:w-2/5 font-light">Regular eye examinations are important because:</p>
+          <div className="sm:w-2/5 mt-10 sm:mt-0">
+            <p className="text-neutral-500 text-base sm:text-2xl font-light mb-8">Regular eye examinations are important because:</p>
+          <Checkmark text="Having your vision corrected can improve the quality of day-to-day life." />
+          <Checkmark text="They will help detect certain eye conditions such as cataracts, glaucoma and age-related macular degeneration, which could lead to sight loss." />
+          <Checkmark text="Identifying any issues with eyesight early can slow down progression, and in the case of children help set them up for success. We recommend children have eye tests from the age of three years old." />
+          <Checkmark text="We are also able to look out for signs of  broader health conditions with symptoms that affect the eyes, such as diabetes and high blood pressure." />
           </div>
         </div>
       </div>
