@@ -8,6 +8,7 @@ export default function Frames(){
     <>
       <Navbar />
       <Header title="Eye Wear" image="/images/homepage/10.webp" percentage="30"/>
+      <Footer />
     </>
   )
 }
