@@ -5,6 +5,8 @@ import GoldTitle from "@/components/GoldTitle"
 import H2Title from "@/components/H2Title"
 import LearnMore from "@/components/LearnMore"
 import Image from "next/image"
+import Link from "next/link"
+import GoldButton from "@/components/GoldButton"
 
 export default function EyeTests() {
   return (
@@ -12,8 +14,28 @@ export default function EyeTests() {
       <Navbar />
       <Header title="Eye Tests" image="/images/homepage/3.webp" percentage="40%" />
       {/* Section 1 */}
+      <div className="mb-10 mt-5">
+        <GoldTitle text="Eye Tests" />
+        <H2Title title="Why get an eye test" />
+        <div className="flex flex-col sm:flex-row sm:justify-between">
+          <div className="sm:w-2/5">
+            <p className="text-neutral-500 text-2xl font-light">An eye test is not just about finding out if you need glasses or contact lenses. It is also a vital health check for your eyes and your general wellbeing.</p>
+            <br />
+            <div className="flex flex-row justify-evenly items-center min-h-[140px] bg-orange-300 bg-opacity-10">
+              <p className="text-center text-teal-950 text-[40px] font-normal ">50% +</p>
+              <p className="text-teal-950 text-xl font-normal">of sight loss is preventable</p>
+            </div>
+            <br />
+            <p className="text-neutral-500 text-2xl font-light">So getting your eyes tested can help prevent, or limit, the damage caused by certain eye conditions. For more information on common eye conditions click here</p>
+            <br />
+            <Link href="/#contact-us"><GoldButton text='Book Appointment'></GoldButton></Link>
+          </div>
+          <div>
+            <p className="text-neutral-500 text-base sm:text-2xl sm:w-2/5 font-light">Regular eye examinations are important because:</p>
+          </div>
+        </div>
+      </div>
 
-      
       {/* Section 2 */}
       <div className="flex flex-col sm:flex-row">
         <div className="flex justify-center md:justify-end w-full md:w-1/2 relative min-h-[500px] md:min-h-[700px]">
