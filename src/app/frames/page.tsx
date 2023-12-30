@@ -101,6 +101,30 @@ export default function Frames() {
 
       </div>
       {/* Section 3 */}
+      <GoldTitle text="Kids brands" />
+      <div className="overflow-auto whitespace-nowrap flex pb-7 pt-7">
+        <div className="w-[273px] h-[127px] mr-4 px-[15px] py-[25px] sm:w-[322px] sm:h-[202px] bg-orange-300 bg-opacity-10 justify-center items-center gap-5 inline-flex">
+          <div className="w-[301.71px] text-center text-teal-950 text-2xl font-light font-['Source Sans Pro']">Batman </div>
+        </div>
+        <div className="w-[273px] h-[127px] mr-4 px-[15px] py-[25px] sm:w-[322px] sm:h-[202px] bg-orange-300 bg-opacity-10 justify-center items-center gap-5 inline-flex">
+          <div className="w-[301.71px] text-center text-teal-950 text-2xl font-light font-['Source Sans Pro']">Barbie </div>
+        </div>
+        <div className="w-[273px] h-[127px] mr-4 px-[15px] py-[25px] sm:w-[322px] sm:h-[202px] bg-orange-300 bg-opacity-10 justify-center items-center gap-5 inline-flex">
+          <div className="w-[301.71px] text-center text-teal-950 text-2xl font-light font-['Source Sans Pro']">Paddington Bear</div>
+        </div>
+        <div className="w-[273px] h-[127px] mr-4 px-[15px] py-[25px] sm:w-[322px] sm:h-[202px] bg-orange-300 bg-opacity-10 justify-center items-center gap-5 inline-flex">
+          <div className="w-[301.71px] text-center text-teal-950 text-2xl font-light font-['Source Sans Pro']">Horrid Henry </div>
+        </div>
+        <div className="w-[273px] h-[127px] mr-4 px-[15px] py-[25px] sm:w-[322px] sm:h-[202px] bg-orange-300 bg-opacity-10 justify-center items-center gap-5 inline-flex">
+          <div className="w-[301.71px] text-center text-teal-950 text-2xl font-light font-['Source Sans Pro']">Crocs </div>
+        </div>
+        <div className="w-[273px] h-[127px] mr-4 px-[15px] py-[25px] sm:w-[322px] sm:h-[202px] bg-orange-300 bg-opacity-10 justify-center items-center gap-5 inline-flex">
+          <div className="w-[301.71px] text-center text-teal-950 text-2xl font-light font-['Source Sans Pro']">Crosshatch </div>
+        </div>
+        <div className="w-[273px] h-[127px] mr-4 px-[15px] py-[25px] sm:w-[322px] sm:h-[202px] bg-orange-300 bg-opacity-10 justify-center items-center gap-5 inline-flex">
+          <div className="w-[301.71px] text-center text-teal-950 text-2xl font-light font-['Source Sans Pro']">Kickers </div>
+        </div>
+      </div>
       {/* Section 4 */}
       {/* Section 5 */}
       <Footer />
