@@ -35,60 +35,68 @@ export default function Frames() {
       <GoldTitle text="Brands" />
       <div className="overflow-auto whitespace-nowrap flex pb-7 pt-7">
         <Image
-          src="/images/brands/Picture_1.webp"
-          width={400}
-          height={100}
-          alt="Picture of a patient undergoing an eye test"
-          className='pr-2'
-          style={{ objectFit: 'contain' }}
-        />
-        <Image
           src="/images/brands/Picture_2.webp"
-          width={400}
-          height={100}
+          width={0}
+          height={0}
           alt="Picture of a patient undergoing an eye test"
-          className='pr-2'
-          style={{ objectFit: 'contain' }}
-        />
-        <Image
-          src="/images/brands/Picture_3.webp"
-          width={400}
-          height={100}
-          alt="Picture of a patient undergoing an eye test"
-          className='pr-2'
-          style={{ objectFit: 'contain' }}
+          className='pr-3 w-auto h-[150px] sm:h-[200px]'
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
         />
         <Image
           src="/images/brands/Picture_4.webp"
-          width={400}
-          height={100}
+          width={0}
+          height={0}
           alt="Picture of a patient undergoing an eye test"
-          className='pr-2'
-          style={{ objectFit: 'contain' }}
+          className='pr-3 w-auto h-[150px] sm:h-[200px]'
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
+        />Ì
+        <Image
+          src="/images/brands/Picture_8.webp"
+          width={0}
+          height={0}
+          alt="Picture of a patient undergoing an eye test"
+          className='pr-3 w-auto h-[150px] sm:h-[200px]'
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
+        />
+        <Image
+          src="/images/brands/Picture_3.webp"
+          width={0}
+          height={0}
+          alt="Picture of a patient undergoing an eye test"
+          className='pr-3 w-auto h-[150px] sm:h-[200px]'
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
         />
         <Image
           src="/images/brands/Picture_5.webp"
-          width={400}
-          height={100}
+          width={0}
+          height={0}
           alt="Picture of a patient undergoing an eye test"
-          className='pr-2'
-          style={{ objectFit: 'contain' }}
+          className='pr-3 w-auto h-[150px] sm:h-[200px]'
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
         />
         <Image
           src="/images/brands/Picture_6.webp"
-          width={400}
-          height={100}
+          width={0}
+          height={0}
           alt="Picture of a patient undergoing an eye test"
-          className='pr-2'
-          style={{ objectFit: 'contain' }}
+          className='pr-3 w-auto h-[150px] sm:h-[200px]'
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
         />
         <Image
           src="/images/brands/Picture_7.webp"
-          width={400}
-          height={100}
+          width={0}
+          height={0}
           alt="Picture of a patient undergoing an eye test"
-          className='pr-2'
-          style={{ objectFit: 'contain' }}
+          className='pr-3 w-auto h-[150px] sm:h-[200px]'
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
+        />
+        <Image
+          src="/images/brands/Picture_1.webp"
+          width={0}
+          height={0}
+          alt="Picture of a patient undergoing an eye test"
+          className='pr-3 w-auto h-[150px] sm:h-[200px]'
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
         />
 
       </div>
