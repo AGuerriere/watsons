@@ -27,7 +27,7 @@ export default function Frames() {
           <GoldTitle text="Eyewear" />
           <br />
           <H2Title title="Frames" />
-          <p className="text-neutral-500 text-2xl font-light ">Whether you need prescription glasses or sunglasses, we have the perfect pair for you. We offer one to one expert assistance and advice when it comes to choosing your frames considering your prescription, style, and lifestyle requirements including nickel free frames for those who suffer from allergies. We have over 500 frames to choose from to suit all styles and budgets.</p>
+          <p className="text-neutral-500 text-base sm:text-2xl font-light ">Whether you need prescription glasses or sunglasses, we have the perfect pair for you. We offer one to one expert assistance and advice when it comes to choosing your frames considering your prescription, style, and lifestyle requirements including nickel free frames for those who suffer from allergies. We have over 500 frames to choose from to suit all styles and budgets.</p>
         </div>
 
       </div>
@@ -126,6 +126,13 @@ export default function Frames() {
         </div>
       </div>
       {/* Section 4 */}
+      <GoldTitle text="Type of lenses" />
+      <br />
+      <H2Title title="Lenses" />
+      <div className="flex flex-col sm:flex-row justify-between mb-10">
+        <div className="text-neutral-500 sm:w-2/5 text-base sm:text-2xl font-light mb-7 sm:mb-0">We’re passionate about providing the best possible outcome for all our patients and will be on hand to recommend the lens that best meets your requirements.</div>
+        <div className="text-neutral-500 sm:w-2/5 text-base sm:text-2xl font-light">Picking the right lenses for your glasses is just as important than choosing the right frame. While lenses might all look similar, we offer a wide selection to cater for different prescriptions, and lifestyle requirements such as:</div>
+      </div>
       {/* Section 5 */}
       <Footer />
     </>
