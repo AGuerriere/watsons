@@ -133,6 +133,94 @@ export default function Frames() {
         <div className="text-neutral-500 sm:w-2/5 text-base sm:text-2xl font-light mb-7 sm:mb-0">We’re passionate about providing the best possible outcome for all our patients and will be on hand to recommend the lens that best meets your requirements.</div>
         <div className="text-neutral-500 sm:w-2/5 text-base sm:text-2xl font-light">Picking the right lenses for your glasses is just as important than choosing the right frame. While lenses might all look similar, we offer a wide selection to cater for different prescriptions, and lifestyle requirements such as:</div>
       </div>
+      <div className="flex flex-col sm:flex-row sm:justify-between mb-10">
+        <div className="w-full sm:w-2/5 mt-7 sm:mt-0 sm:min-h-[70vh] h-fill relative">
+          <Image
+            src="/images/homepage/image1.webp"
+            fill={true}
+            alt="Picture of a patient undergoing an eye test"
+            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
+            className="object-cover object-center"
+          />
+        </div>
+        <div className="sm:w-2/5 w-full flex flex-col justify-between">
+        <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+            <div className="flex mb-4 items-start">
+              <Image
+                src="/images/circle.svg"
+                width={20}
+                height={20}
+                alt="Checkmark image"
+                className="mr-3 mt-1"
+              />
+            </div>
+            <div className="flex flex-col">
+              <div className="text-black text-2xl font-light">Thinner, lighter lenses</div>
+              <div className="text-neutral-500 text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+            </div>
+          </div>
+          <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+            <div className="flex mb-4 items-start">
+              <Image
+                src="/images/circle.svg"
+                width={20}
+                height={20}
+                alt="Checkmark image"
+                className="mr-3 mt-1"
+              />
+            </div>
+            <div className="flex flex-col">
+              <div className="text-black text-2xl font-light">Thinner, lighter lenses</div>
+              <div className="text-neutral-500 text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+            </div>
+          </div>
+          <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+            <div className="flex mb-4 items-start">
+              <Image
+                src="/images/circle.svg"
+                width={20}
+                height={20}
+                alt="Checkmark image"
+                className="mr-3 mt-1"
+              />
+            </div>
+            <div className="flex flex-col">
+              <div className="text-black text-2xl font-light">Thinner, lighter lenses</div>
+              <div className="text-neutral-500 text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+            </div>
+          </div>
+          <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+            <div className="flex mb-4 items-start">
+              <Image
+                src="/images/circle.svg"
+                width={20}
+                height={20}
+                alt="Checkmark image"
+                className="mr-3 mt-1"
+              />
+            </div>
+            <div className="flex flex-col">
+              <div className="text-black text-2xl font-light">Thinner, lighter lenses</div>
+              <div className="text-neutral-500 text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+            </div>
+          </div>
+          <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+            <div className="flex mb-4 items-start">
+              <Image
+                src="/images/circle.svg"
+                width={20}
+                height={20}
+                alt="Checkmark image"
+                className="mr-3 mt-1"
+              />
+            </div>
+            <div className="flex flex-col">
+              <div className="text-black text-2xl font-light">Thinner, lighter lenses</div>
+              <div className="text-neutral-500 text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* Section 5 */}
       <Footer />
     </>
