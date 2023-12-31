@@ -4,6 +4,8 @@ import Footer from "@/components/Footer"
 import Image from "next/image"
 import GoldTitle from "@/components/GoldTitle"
 import H2Title from "@/components/H2Title"
+import GoldButton from "@/components/GoldButton"
+import Link from "next/link"
 
 
 
@@ -155,8 +157,8 @@ export default function Frames() {
               />
             </div>
             <div className="flex flex-col">
-              <div className="text-black text-2xl font-light">Thinner, lighter lenses</div>
-              <div className="text-neutral-500 text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+              <div className="text-black text-base sm:text-2xl font-light">Thinner, lighter lenses</div>
+              <div className="text-neutral-500 text-base sm:text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
@@ -170,8 +172,8 @@ export default function Frames() {
               />
             </div>
             <div className="flex flex-col">
-              <div className="text-black text-2xl font-light">Thinner, lighter lenses</div>
-              <div className="text-neutral-500 text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+              <div className="text-black text-base sm:text-2xl font-light">Thinner, lighter lenses</div>
+              <div className="text-neutral-500 text-base sm:text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
@@ -185,8 +187,8 @@ export default function Frames() {
               />
             </div>
             <div className="flex flex-col">
-              <div className="text-black text-2xl font-light">Thinner, lighter lenses</div>
-              <div className="text-neutral-500 text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+              <div className="text-black text-base sm:text-2xl font-light">Thinner, lighter lenses</div>
+              <div className="text-neutral-500 text-base sm:text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
@@ -200,8 +202,8 @@ export default function Frames() {
               />
             </div>
             <div className="flex flex-col">
-              <div className="text-black text-2xl font-light">Thinner, lighter lenses</div>
-              <div className="text-neutral-500 text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+              <div className="text-black text-base sm:text-2xl font-light">Thinner, lighter lenses</div>
+              <div className="text-neutral-500 text-base sm:text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
@@ -215,13 +217,30 @@ export default function Frames() {
               />
             </div>
             <div className="flex flex-col">
-              <div className="text-black text-2xl font-light">Thinner, lighter lenses</div>
-              <div className="text-neutral-500 text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+              <div className="text-black text-base sm:text-2xl font-light">Thinner, lighter lenses</div>
+              <div className="text-neutral-500 text-base sm:text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
             </div>
           </div>
         </div>
       </div>
       {/* Section 5 */}
+      <div className="flex flex-col sm:flex-row mt-10 sm:mt-20 mb-10">
+      <div className="sm:w-1/2 order-2 sm:order-1">
+          <H2Title title="Did you know?" />
+          <p className="text-neutral-500 text-base sm:text-2xl font-light ">Once you’ve chosen your frame and lenses, we have our own glazing lab on site to make sure your new glasses are ready as quickly as possible for you to enjoy.</p>
+          <br />
+          <Link href="/#contact-us"><GoldButton text='Book Appointment'></GoldButton></Link>
+        </div>
+        <div className="w-full sm:ml-10 sm:w-1/2 sm:order-2 mt-7 sm:mt-0 order-1 min-h-[200px] h-fill relative mb-5 sm:mb-0">
+          <Image
+            src="/images/homepage/image4.webp"
+            fill={true}
+            alt="Picture of a patient undergoing an eye test"
+            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
+            className="object-cover object-center"
+          />
+        </div>
+      </div>
       <Footer />
     </>
   )
