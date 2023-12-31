@@ -31,7 +31,7 @@ export default function Navbar() {
         <Link href="/about" className="active:text-black">About Us</Link>
         <Link href="/eye_tests">Eye Tests</Link>
         <Link href="/frames">Eye Wear</Link>
-        <div>Contact Lenses</div>
+        <Link href="/contact_lenses">Contact Lenses</Link>
         <div>Eye Conditions</div>
         <Link href="/#contact-us"><GoldButton text='Book Appointment'></GoldButton></Link>
       </nav>
@@ -84,7 +84,7 @@ export default function Navbar() {
           <Link href="/about" className="active:text-black" onClick={() => triggerToggle()}>About Us</Link>
           <Link href="/eye_tests" className="active:text-black" onClick={() => triggerToggle()}>Eye Tests</Link>
           <Link href="/frames" className="active:text-black" onClick={() => triggerToggle()}>Eye Wear</Link>
-          <div>Contact Lenses</div>
+          <Link href="/contact_lenses" className="active:text-black" onClick={() => triggerToggle()}>Contact Lenses</Link>
           <div>Eye Conditions</div>
           <Link href="/#contact-us" onClick={() => triggerToggle()}><GoldButton text='Book Appointment'></GoldButton></Link>
         </div>
