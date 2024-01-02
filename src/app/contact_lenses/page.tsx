@@ -4,6 +4,7 @@ import Footer from "@/components/Footer"
 import GoldTitle from "@/components/GoldTitle"
 import H2Title from "@/components/H2Title"
 import Checkmark from "@/components/Checkmark"
+import LearnMore from "@/components/LearnMore"
 
 
 export default function ContactLenses() {
@@ -122,13 +123,19 @@ export default function ContactLenses() {
               <li className="flex flex-row"><div className="w-[15px] h-[15px] bg-orange-300 rounded-full mt-1 mr-5 aspect-square mb-3"></div>Suffer from hay-fever</li>
               <li className="flex flex-row"><div className="w-[15px] h-[15px] bg-orange-300 rounded-full mt-1 mr-5 aspect-square mb-3"></div>Work in a very dusty, dry or smoky environment</li>
               <li className="flex flex-row"><div className="w-[15px] h-[15px] bg-orange-300 rounded-full mt-1 mr-5 aspect-square mb-3"></div>Find spectacles and conventional lenses just a plain nuisance</li>
-              
             </ul>
           </div>
         </div>
       </div>
       {/* Section 4 */}
-      
+      <br />
+      <H2Title title="Interested in contact lenses?" />
+      <div className="flex flex-col sm:flex-row justify-between pb-10">
+        <p className="sm:w-2/5 text-neutral-500 text-2xl font-light">If you’re interested in contact lenses or finding out more about  Ortho-K lenses and whether they’ll work for you contact us</p>
+        <div className="sm:w-2/5 text-2xl mt-7 flex items-end">
+          <LearnMore text="Contact us" link="/#contact-us" target="_self" /></div>
+      </div>
+      <br />
       <Footer />
     </>
   )

@@ -7,6 +7,7 @@ type propsType = {
   target: string,
 }
 
+// Text is the text to show, link the link to the page and target is the html target attribute to open in same or new tab
 
 export default function LearnMore(props:propsType) {
   return (
