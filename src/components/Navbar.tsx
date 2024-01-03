@@ -32,8 +32,8 @@ export default function Navbar() {
         <Link href="/eye_tests">Eye Tests</Link>
         <Link href="/frames">Eye Wear</Link>
         <Link href="/contact_lenses">Contact Lenses</Link>
-        <div>Eye Conditions</div>
-        <Link href="/#contact-us"><GoldButton text='Book Appointment'></GoldButton></Link>
+        <div className="hover:">Eye Conditions</div>
+        <Link href="https://watsonsopticians.com/#contact-us"><GoldButton text='Book Appointment'></GoldButton></Link>
       </nav>
 
       {/* Mobile navbar closed */}
@@ -86,7 +86,7 @@ export default function Navbar() {
           <Link href="/frames" className="active:text-black" onClick={() => triggerToggle()}>Eye Wear</Link>
           <Link href="/contact_lenses" className="active:text-black" onClick={() => triggerToggle()}>Contact Lenses</Link>
           <div>Eye Conditions</div>
-          <Link href="/#contact-us" onClick={() => triggerToggle()}><GoldButton text='Book Appointment'></GoldButton></Link>
+          <Link href="https://watsonsopticians.com/#contact-us" onClick={() => triggerToggle()}><GoldButton text='Book Appointment'></GoldButton></Link>
         </div>
       </nav>
     </>
