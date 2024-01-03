@@ -29,10 +29,35 @@ export default function Navbar() {
         </div>
         <Link href="/" className="active:text-black">Home</Link>
         <Link href="/about" className="active:text-black">About Us</Link>
-        <Link href="/eye_tests">Eye Tests</Link>
+        <div>
+        <div className="group inline-block relative">
+          <button className="py-2 px-4 rounded inline-flex items-center">
+            <span className="form-select bg-no-repeat pr-8 pl-2">Eye Tests</span>
+          </button>
+          <div className="absolute hidden group-hover:block">
+            <div className="bg-white rounded shadow-lg py-1 min-w-[250px] ">
+              <Link href="/eye_tests" className="block px-4 py-2 hover:bg-green1 hover:text-white">Eye Tests</Link>
+              <a href="https://online.hscni.net/our-work/ophthalmic-services/eyes/" target="_blank" className="block px-4 py-2 hover:bg-green1 hover:text-white">NI PEARS</a>
+            </div>
+          </div>
+        </div>
+        </div>
         <Link href="/frames">Eye Wear</Link>
         <Link href="/contact_lenses">Contact Lenses</Link>
-        <div className="hover:">Eye Conditions</div>
+        <div className="group inline-block relative">
+          <button className="py-2 px-4 rounded inline-flex items-center">
+            <span className="form-select bg-no-repeat pr-8 pl-2">Eye Conditions</span>
+
+
+          </button>
+          <div className="absolute hidden group-hover:block">
+            <div className="bg-white rounded shadow-lg py-1 min-w-[250px] ">
+              <a href="#" className="block px-4 py-2 hover:bg-green1 hover:text-white">Common eye conditions</a>
+              <a href="#" className="block px-4 py-2 hover:bg-green1 hover:text-white">Dry eye clinic</a>
+              <a href="#" className="block px-4 py-2 hover:bg-green1 hover:text-white">Myopia management</a>
+            </div>
+          </div>
+        </div>
         <Link href="https://watsonsopticians.com/#contact-us"><GoldButton text='Book Appointment'></GoldButton></Link>
       </nav>
 
