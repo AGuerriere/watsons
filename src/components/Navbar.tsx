@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import GoldButton from "./GoldButton";
 import Link from "next/link";
 
@@ -12,6 +12,39 @@ export default function Navbar() {
     const toggle = hidden === 1 ? 0 : 1;
     toggleHidden(toggle);
   }
+
+
+  const [status, statusHidden] = useState(1)
+  function showEyeConditionsSubMenu() {
+    const toggle = status === 1 ? 0 : 1;
+    statusHidden(toggle);
+  }
+
+  useEffect(() => {
+    function handleClickOutside(event:string) {
+        // Assuming your submenu has a unique class or id
+        const submenu = document.querySelector('.your-submenu-class');
+        if (submenu && !submenu.contains(event.target)) {
+            statusHidden(1); // Hide the submenu
+        }
+    }
+
+    // Add click event listener
+    document.addEventListener('mousedown', handleClickOutside);
+
+    // Clean up
+    return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+    };
+}, []);
+
+  const [statusEyeTests, statusEyeTestsHidden] = useState(1)
+  function showEyeTestsSubMenu() {
+    const toggle = statusEyeTests === 1 ? 0 : 1;
+    statusEyeTestsHidden(toggle);
+  }
+
+
   return (
     <>
       {/* Desktop Navbar */}
@@ -29,7 +62,6 @@ export default function Navbar() {
         </div>
         <Link href="/" className="active:text-black">Home</Link>
         <Link href="/about" className="active:text-black">About Us</Link>
-        <div>
         <div className="group inline-block relative">
           <button className="py-2 px-4 rounded inline-flex items-center">
             <span className="form-select bg-no-repeat pr-8 pl-2">Eye Tests</span>
@@ -41,14 +73,11 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-        </div>
         <Link href="/frames">Eye Wear</Link>
         <Link href="/contact_lenses">Contact Lenses</Link>
         <div className="group inline-block relative">
           <button className="py-2 px-4 rounded inline-flex items-center">
             <span className="form-select bg-no-repeat pr-8 pl-2">Eye Conditions</span>
-
-
           </button>
           <div className="absolute hidden group-hover:block">
             <div className="bg-white rounded shadow-lg py-1 min-w-[250px] ">
@@ -103,14 +132,34 @@ export default function Navbar() {
           className="fixed text-teal-700 top-12 right-7"
           onClick={() => triggerToggle()}
         />
-
         <div className="flex flex-col h-2/5 items-center justify-between">
           <Link href="/" className="active:text-black" onClick={() => triggerToggle()}>Home</Link>
           <Link href="/about" className="active:text-black" onClick={() => triggerToggle()}>About Us</Link>
-          <Link href="/eye_tests" className="active:text-black" onClick={() => triggerToggle()}>Eye Tests</Link>
+          <div className="group inline-block relative">
+            <button className="rounded inline-flex items-center" onClick={() => showEyeTestsSubMenu()}>
+              <span className="form-select bg-no-repeat pr-8 pl-2">Eye Tests</span>
+            </button>
+            <div className={`${statusEyeTests === 1 ? 'hidden' : ''} absolute group-focus:block`}>
+              <div className="bg-white rounded shadow-lg py-1 min-w-[250px] ">
+                <Link href="/eye_tests" className="block px-4 py-2 active:bg-green1 active:text-white" onClick={() => {triggerToggle();showEyeTestsSubMenu()}}>Eye Tests</Link>
+                <a href="https://online.hscni.net/our-work/ophthalmic-services/eyes/" target="_blank" className="block px-4 py-2 active:bg-green1 active:text-white" onClick={() => triggerToggle()}>NI PEARS</a>
+              </div>
+            </div>
+          </div>
           <Link href="/frames" className="active:text-black" onClick={() => triggerToggle()}>Eye Wear</Link>
           <Link href="/contact_lenses" className="active:text-black" onClick={() => triggerToggle()}>Contact Lenses</Link>
-          <div>Eye Conditions</div>
+          <div className="group inline-block relative">
+            <button className="rounded inline-flex items-center" onClick={() => showEyeConditionsSubMenu()}>
+              <span className="form-select bg-no-repeat pr-8 pl-2">Eye Conditions</span>
+            </button>
+            <div className={`${status === 1 ? 'hidden' : ''} absolute group-focus:block`}>
+              <div className="bg-white rounded shadow-lg py-1 min-w-[250px] ">
+                <a href="#" className="block px-4 py-2 focus:bg-green1 focus:text-white">Common eye conditions</a>
+                <a href="#" className="block px-4 py-2 focus:bg-green1 focus:text-white">Dry eye clinic</a>
+                <a href="#" className="block px-4 py-2 focus:bg-green1 focus:text-white">Myopia management</a>
+              </div>
+            </div>
+          </div>
           <Link href="https://watsonsopticians.com/#contact-us" onClick={() => triggerToggle()}><GoldButton text='Book Appointment'></GoldButton></Link>
         </div>
       </nav>

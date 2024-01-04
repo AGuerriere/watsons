@@ -103,10 +103,10 @@ export default function Home() {
               </p>
               <h5 className='text-black text-xl'>Opening Hours</h5> 
               <p className='font-light'>
-                Monday - Thursday: 9:00 - 17:00
-                Friday: 9:00 - 15:00
-                Saturday: Closed
-                Sunday : Closed
+                Monday - Thursday: 9:00 - 17:00<br />
+                Friday: 9:00 - 15:00<br />
+                Saturday: Closed<br />
+                Sunday : Closed<br />
               </p>
               <h4 className='text-2xl font-normal text-black'>Ballycastle</h4>
               <p className='font-light'>
