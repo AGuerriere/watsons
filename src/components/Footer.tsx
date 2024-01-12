@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function Footer() {
   return(
     <>
-      <div className="flex flex-row items-center justify-evenly bg-green1 -ml-7 -mr-7 md:-ml-20 md:-mr-20 text-white min-h-[290px] pt-10 pb-10">
+      <div className="flex flex-row items-center justify-evenly bg-green1 -ml-7 -mr-7 md:-ml-20 md:-mr-20 text-white min-h-[290px] p-7">
           <div className="min-h-[290px]">
             <Image
               src="/images/white-logo.webp"

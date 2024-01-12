@@ -69,7 +69,7 @@ export default function Navbar() {
           <div className="absolute hidden group-hover:block">
             <div className="bg-white rounded shadow-lg py-1 min-w-[250px] ">
               <Link href="/eye_tests" className="block px-4 py-2 hover:bg-green1 hover:text-white">Eye Tests</Link>
-              <a href="https://online.hscni.net/our-work/ophthalmic-services/eyes/" target="_blank" className="block px-4 py-2 hover:bg-green1 hover:text-white">NI PEARS</a>
+              <Link href="/NI_PEARS" className="block px-4 py-2 hover:bg-green1 hover:text-white">NI PEARS</Link>
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@ export default function Navbar() {
             <div className={`${statusEyeTests === 1 ? 'hidden' : ''} absolute group-focus:block`}>
               <div className="bg-white rounded shadow-lg py-1 min-w-[250px] ">
                 <Link href="/eye_tests" className="block px-4 py-2 active:bg-green1 active:text-white" onClick={() => {triggerToggle();showEyeTestsSubMenu()}}>Eye Tests</Link>
-                <a href="https://online.hscni.net/our-work/ophthalmic-services/eyes/" target="_blank" className="block px-4 py-2 active:bg-green1 active:text-white" onClick={() => triggerToggle()}>NI PEARS</a>
+                <Link href="/NI_PEARS" className="block px-4 py-2 active:bg-green1 active:text-white" onClick={() => {triggerToggle();showEyeTestsSubMenu()}}>NI PEARS</Link>
               </div>
             </div>
           </div>

@@ -8,7 +8,7 @@ const source_sans = Source_Sans_3({ subsets: ['latin'] })
 export const metadata = {
   title: 'Watsons Opticians',
   description: 'Watsons Opticians. Family opticians based in Ballycastle and Portrush',
-  keywords: ['Opticians', 'Optometrists', 'Frames', 'Contact Lenses'],
+  keywords: ['Opticians', 'Optometrists', 'Frames', 'Contact Lenses', 'Ballycastle', 'Portrush', 'Ortho-K','Orthokeratology', 'Frames', 'Glasses', 'Contact Lenses', 'Dry Eye'],
   metadataBase: new URL('https://watsonsopticians.com/'),
   icons: {
     icon: '/favicon.ico',
