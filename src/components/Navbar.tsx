@@ -20,24 +20,6 @@ export default function Navbar() {
     statusHidden(toggle);
   }
 
-  useEffect(() => {
-    function handleClickOutside(event:string) {
-        // Assuming your submenu has a unique class or id
-        const submenu = document.querySelector('.your-submenu-class');
-        if (submenu && !submenu.contains(event.target)) {
-            statusHidden(1); // Hide the submenu
-        }
-    }
-
-    // Add click event listener
-    document.addEventListener('mousedown', handleClickOutside);
-
-    // Clean up
-    return () => {
-        document.removeEventListener('mousedown', handleClickOutside);
-    };
-}, []);
-
   const [statusEyeTests, statusEyeTestsHidden] = useState(1)
   function showEyeTestsSubMenu() {
     const toggle = statusEyeTests === 1 ? 0 : 1;
@@ -154,9 +136,9 @@ export default function Navbar() {
             </button>
             <div className={`${status === 1 ? 'hidden' : ''} absolute group-focus:block`}>
               <div className="bg-white rounded shadow-lg py-1 min-w-[250px] ">
-                <Link href="/eye_conditions"  className="block px-4 py-2 focus:bg-green1 focus:text-white">Common eye conditions</Link>
-                <Link href="/dry_eye" className="block px-4 py-2 focus:bg-green1 focus:text-white">Dry eye clinic</Link>
-                <Link href="/myopia_management" className="block px-4 py-2 focus:bg-green1 focus:text-white">Myopia management</Link>
+                <Link href="/eye_conditions"  className="block px-4 py-2 focus:bg-green1 focus:text-white" onClick={() => {triggerToggle();showEyeConditionsSubMenu()}}>Common eye conditions</Link>
+                <Link href="/dry_eye" className="block px-4 py-2 focus:bg-green1 focus:text-white" onClick={() => {triggerToggle();showEyeConditionsSubMenu()}}>Dry eye clinic</Link>
+                <Link href="/myopia_management" className="block px-4 py-2 focus:bg-green1 focus:text-white" onClick={() => {triggerToggle();showEyeConditionsSubMenu()}}>Myopia management</Link>
               </div>
             </div>
           </div>
