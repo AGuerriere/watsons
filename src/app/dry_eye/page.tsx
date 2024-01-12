@@ -9,7 +9,7 @@ export default function Dry_Eye(){
     <>
       <Navbar />
       <Header title="Dry eye clinic" image="/images/homepage/7.webp" percentage="20" />
-
+      
       <Footer />
     </>
   )

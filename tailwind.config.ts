@@ -16,6 +16,7 @@ const config: Config = {
         gold: '#D9B166',
         green1:"#0A4030",
         greenOverlay: 'rgba(10, 64, 48, 0.85)',
+        goldBg: 'rgba(217, 177, 102, 0.08)',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

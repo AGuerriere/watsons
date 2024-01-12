@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import GoldButton from "./GoldButton";
 import Link from "next/link";
 
