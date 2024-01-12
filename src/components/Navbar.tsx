@@ -81,9 +81,9 @@ export default function Navbar() {
           </button>
           <div className="absolute hidden group-hover:block">
             <div className="bg-white rounded shadow-lg py-1 min-w-[250px] ">
-              <a href="#" className="block px-4 py-2 hover:bg-green1 hover:text-white">Common eye conditions</a>
-              <a href="#" className="block px-4 py-2 hover:bg-green1 hover:text-white">Dry eye clinic</a>
-              <a href="#" className="block px-4 py-2 hover:bg-green1 hover:text-white">Myopia management</a>
+              <Link href="/eye_conditions" className="block px-4 py-2 hover:bg-green1 hover:text-white">Common eye conditions</Link>
+              <Link href="/dry_eye" className="block px-4 py-2 hover:bg-green1 hover:text-white">Dry eye clinic</Link>
+              <Link href="/myopia_management" className="block px-4 py-2 hover:bg-green1 hover:text-white">Myopia management</Link>
             </div>
           </div>
         </div>
@@ -154,9 +154,9 @@ export default function Navbar() {
             </button>
             <div className={`${status === 1 ? 'hidden' : ''} absolute group-focus:block`}>
               <div className="bg-white rounded shadow-lg py-1 min-w-[250px] ">
-                <a href="#" className="block px-4 py-2 focus:bg-green1 focus:text-white">Common eye conditions</a>
-                <a href="#" className="block px-4 py-2 focus:bg-green1 focus:text-white">Dry eye clinic</a>
-                <a href="#" className="block px-4 py-2 focus:bg-green1 focus:text-white">Myopia management</a>
+                <Link href="/eye_conditions"  className="block px-4 py-2 focus:bg-green1 focus:text-white">Common eye conditions</Link>
+                <Link href="/dry_eye" className="block px-4 py-2 focus:bg-green1 focus:text-white">Dry eye clinic</Link>
+                <Link href="/myopia_management" className="block px-4 py-2 focus:bg-green1 focus:text-white">Myopia management</Link>
               </div>
             </div>
           </div>
