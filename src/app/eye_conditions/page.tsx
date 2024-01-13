@@ -110,15 +110,7 @@ export default function EyeConditions() {
             <p>The treatment for glaucoma depends on the type and severity of the condition. The main goal is to lower the pressure inside your eyes and prevent further damage to your optic nerve. The treatment options include:</p>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Eye drops</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which reduce the production or increase the drainage of fluid in your eyes.</div>
@@ -126,15 +118,7 @@ export default function EyeConditions() {
             </div>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Laser treatment</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which uses a beam of light to open up the drainage channels in your eyes or reduce the amount of fluid in your eyes.</div>
@@ -142,15 +126,7 @@ export default function EyeConditions() {
             </div>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Surgery</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which creates a new opening for the fluid to drain from your eyes or implants a device to help the fluid flow out of your eyes.</div>
@@ -233,15 +209,7 @@ export default function EyeConditions() {
             <p>For wet macular degeneration, there are some treatments that can stop or reduce the growth of the abnormal blood vessels, such as:</p>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Anti-VEGF injection</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which block a protein that stimulates the growth of the blood vessels.</div>
@@ -249,15 +217,7 @@ export default function EyeConditions() {
             </div>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Photodynamic therapy</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which uses a light-sensitive drug and a laser to destroy the blood vessels.</div>
@@ -265,15 +225,7 @@ export default function EyeConditions() {
             </div>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Laser Surgery</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which uses a high-energy beam of light to seal the blood vessels.</div>
@@ -312,15 +264,7 @@ export default function EyeConditions() {
             <p>The main goal is to control your blood sugar levels and prevent further damage to your retina. The treatment options include:</p>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Eye drops</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which reduce the swelling or inflammation in your eyes.</div>
@@ -328,15 +272,7 @@ export default function EyeConditions() {
             </div>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Laser Treatment</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which uses a beam of light to seal the leaking or abnormal blood vessels or reduce the amount of fluid in your eyes.</div>
@@ -344,15 +280,7 @@ export default function EyeConditions() {
             </div>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Surgery</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which involves removing the vitreous gel that fills your eyes or the scar tissue that forms on your retina.</div>
@@ -400,15 +328,7 @@ export default function EyeConditions() {
             <p>The treatment for dry eye syndrome depends on the cause and severity of the condition. The main goal is to keep your eyes moist and comfortable. The treatment options include:</p>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Blinking</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">when concentrating (e.g. using a computer or driving), we can blink up to 5 times less often, leading to increased tear evaporation. Remembering to blink more often can help keep the eye surface wet.</div>
@@ -416,89 +336,41 @@ export default function EyeConditions() {
             </div>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Hot compresses using an Eye Bag</div>
               </div>
             </div>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Artificial tears</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which are eye drops that lubricate your eyes and replace the natural tears, these are available as drops or a gel.</div>
               </div>
             </div>
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Eye ointments</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">when concentrating (e.g. using a computer or driving), we can blink up to 5 times less often, leading to increased tear evaporation. Remembering to blink more often can help keep the eye surface wet.</div>
               </div>
             </div>
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Diet omega-3 oils and flax seed oil in the diet may help improve tear quality.</div>
               </div>
             </div>
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Lipiflow</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which is a device that applies heat and pressure to your eyelids and clears the blocked oil glands that produce the oily layer of your tears.</div>
               </div>
             </div>
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Moist air leads to less evaporation of tears. </div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">Avoiding air conditioned environments and direct heat (e.g. an open fire or heat from a cooker) can help for the same reason
@@ -538,15 +410,7 @@ export default function EyeConditions() {
             <p>The treatment for conjunctivitis depends on the cause and type of the condition. The main goal is to relieve the symptoms and prevent the spread of the infection or the exposure to the allergen or the irritant. The treatment options include:</p>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Eye drops or ointments</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which contain antibiotics, antihistamines, steroids or lubricants, depending on the cause of the conjunctivitis.</div>
@@ -554,15 +418,7 @@ export default function EyeConditions() {
             </div>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Warm or cold compresses</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which can soothe the irritation and reduce the swelling in your eyes.</div>
@@ -570,15 +426,7 @@ export default function EyeConditions() {
             </div>
             <br />
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="flex mb-4 items-start">
-                <Image
-                  src="/images/circle.svg"
-                  width={20}
-                  height={20}
-                  alt="Checkmark image"
-                  className="mr-3 mt-1"
-                />
-              </div>
+              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Eye hygiene</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which involves washing your hands, cleaning your eyes, avoiding touching or rubbing your eyes, and stop using and discard any used contact lenses and makeup.</div>
