@@ -83,7 +83,7 @@ export default function EyeConditions() {
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden1 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
       <div className={`${hidden1 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 bg-goldBg sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
-        <H2Title title="Glaucoma" />
+        <div className="hidden sm:block"><H2Title title="Glaucoma" /></div>
         {/* left right container */}
         <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
           {/* Left */}
@@ -166,7 +166,7 @@ export default function EyeConditions() {
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden2 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
       <div className={`${hidden2 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
-      <H2Title title="Cataracts" />
+        <div className="hidden sm:block"><H2Title title="Cataracts" /></div>
         {/* left right container */}
         <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
           {/* Left */}
@@ -200,7 +200,7 @@ export default function EyeConditions() {
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden3 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
       <div className={`${hidden3 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 bg-goldBg sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
-        <H2Title title="Macular Degeneration" />
+        <div className="hidden sm:block"><H2Title title="Macular Degeneration" /></div>
         {/* left right container */}
         <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
           {/* Left */}
@@ -288,8 +288,78 @@ export default function EyeConditions() {
         <h2 className="text-2xl xl:text-5xl text-black font-normal">Diabetic retinopathy</h2>
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden4 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
-      <div className={`${hidden4 === 1 ? 'hidden' : ''} sm:block group-focus:block`}>
-
+      <div className={`${hidden3 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
+        <div className="hidden sm:block"><H2Title title="Diabetic retinopathy" /></div>
+        {/* left right container */}
+        <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
+          {/* Left */}
+          <div className="sm:w-2/5">
+            <p>Diabetic retinopathy is a complication of diabetes that affects the blood vessels in your retina. </p>
+            <br />
+            <h5 className="text-gold font-normal">Causes</h5>
+            <br />
+            <p>It is caused by high blood sugar levels, which damage the walls of the blood vessels and cause them to leak fluid or blood, or grow abnormally.</p>
+            <br />
+            <h5 className="text-gold font-normal">Symptoms</h5>
+            <br />
+            <p>Diabetic retinopathy can cause blurred or fluctuating vision, floaters, dark spots, flashes of light and vision loss.</p>
+            <br />
+          </div>
+          {/* Right */}
+          <div className="sm:w-2/5">
+            <h5 className="text-gold font-normal sm:mt-0 mt-5">Treatment</h5>
+            <br />
+            <p>The main goal is to control your blood sugar levels and prevent further damage to your retina. The treatment options include:</p>
+            <br />
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Eye drops</div>
+                <div className="text-neutral-500 text-base sm:text-2xl font-light">which reduce the swelling or inflammation in your eyes.</div>
+              </div>
+            </div>
+            <br />
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Laser Treatment</div>
+                <div className="text-neutral-500 text-base sm:text-2xl font-light">which uses a beam of light to seal the leaking or abnormal blood vessels or reduce the amount of fluid in your eyes.</div>
+              </div>
+            </div>
+            <br />
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Surgery</div>
+                <div className="text-neutral-500 text-base sm:text-2xl font-light">which involves removing the vitreous gel that fills your eyes or the scar tissue that forms on your retina.</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Dry eye syndrome */}
@@ -297,8 +367,146 @@ export default function EyeConditions() {
         <h2 className="text-2xl xl:text-5xl text-black font-normal">Dry eye syndrome</h2>
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden5 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
-      <div className={`${hidden5 === 1 ? 'hidden' : ''} sm:block group-focus:block`}>
-
+      <div className={`${hidden3 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 bg-goldBg sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
+        <div className="hidden sm:block"><H2Title title="Dry eye syndrome" /></div>
+        {/* left right container */}
+        <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
+          {/* Left */}
+          <div className="sm:w-2/5">
+            <p>Dry eye syndrome is a condition that occurs when your eyes do not produce enough tears or the tears evaporate too quickly. </p>
+            <br />
+            <h5 className="text-gold font-normal">Causes</h5>
+            <br />
+            <p>It is usually caused by factors such as ageing, hormonal changes, environmental conditions, medications, contact lens use and eye surgery.</p>
+            <br />
+            <h5 className="text-gold font-normal">Symptoms</h5>
+            <br />
+            <p>Dry eye syndrome can cause symptoms such as dryness, burning, itching, redness, sensitivity to light and blurred vision.</p>
+            <br />
+            <div className="w-full sm:w-full mt-7 sm:mt-0 sm:min-h-[70vh] h-fill relative">
+              <Image
+                src="/images/homepage/7.webp"
+                fill={true}
+                alt="Picture of a patient undergoing an eye test"
+                sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 33vw"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
+          {/* Right */}
+          <div className="sm:w-2/5">
+            <h5 className="text-gold font-normal sm:mt-0 mt-5">Treatment</h5>
+            <br />
+            <p>The treatment for dry eye syndrome depends on the cause and severity of the condition. The main goal is to keep your eyes moist and comfortable. The treatment options include:</p>
+            <br />
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Blinking</div>
+                <div className="text-neutral-500 text-base sm:text-2xl font-light">when concentrating (e.g. using a computer or driving), we can blink up to 5 times less often, leading to increased tear evaporation. Remembering to blink more often can help keep the eye surface wet.</div>
+              </div>
+            </div>
+            <br />
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Hot compresses using an Eye Bag</div>
+              </div>
+            </div>
+            <br />
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Artificial tears</div>
+                <div className="text-neutral-500 text-base sm:text-2xl font-light">which are eye drops that lubricate your eyes and replace the natural tears, these are available as drops or a gel.</div>
+              </div>
+            </div>
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Eye ointments</div>
+                <div className="text-neutral-500 text-base sm:text-2xl font-light">when concentrating (e.g. using a computer or driving), we can blink up to 5 times less often, leading to increased tear evaporation. Remembering to blink more often can help keep the eye surface wet.</div>
+              </div>
+            </div>
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Diet omega-3 oils and flax seed oil in the diet may help improve tear quality.</div>
+              </div>
+            </div>
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Lipiflow</div>
+                <div className="text-neutral-500 text-base sm:text-2xl font-light">which is a device that applies heat and pressure to your eyelids and clears the blocked oil glands that produce the oily layer of your tears.</div>
+              </div>
+            </div>
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Moist air leads to less evaporation of tears. </div>
+                <div className="text-neutral-500 text-base sm:text-2xl font-light">Avoiding air conditioned environments and direct heat (e.g. an open fire or heat from a cooker) can help for the same reason
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Conjuctivitis */}
@@ -306,8 +514,78 @@ export default function EyeConditions() {
         <h2 className="text-2xl xl:text-5xl text-black font-normal">Conjuctivitis</h2>
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden6 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
-      <div className={`${hidden6 === 1 ? 'hidden' : ''} sm:block group-focus:block`}>
-
+      <div className={`${hidden3 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
+        <div className="hidden sm:block"><H2Title title="Conjunctivitis" /></div>
+        {/* left right container */}
+        <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
+          {/* Left */}
+          <div className="sm:w-2/5">
+            <p>Conjunctivitis is an inflammation of the conjunctiva, which is the thin membrane that covers the white part of your eye and the inside of your eyelids. </p>
+            <br />
+            <h5 className="text-gold font-normal">Causes</h5>
+            <br />
+            <p>It is usually caused by an infection, an allergy or an irritant. </p>
+            <br />
+            <h5 className="text-gold font-normal">Symptoms</h5>
+            <br />
+            <p>Conjunctivitis can cause symptoms such as redness, itching, burning, discharge, crustiness and sensitivity to light.</p>
+            <br />
+          </div>
+          {/* Right */}
+          <div className="sm:w-2/5">
+            <h5 className="text-gold font-normal sm:mt-0 mt-5">Treatment</h5>
+            <br />
+            <p>The treatment for conjunctivitis depends on the cause and type of the condition. The main goal is to relieve the symptoms and prevent the spread of the infection or the exposure to the allergen or the irritant. The treatment options include:</p>
+            <br />
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Eye drops or ointments</div>
+                <div className="text-neutral-500 text-base sm:text-2xl font-light">which contain antibiotics, antihistamines, steroids or lubricants, depending on the cause of the conjunctivitis.</div>
+              </div>
+            </div>
+            <br />
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Warm or cold compresses</div>
+                <div className="text-neutral-500 text-base sm:text-2xl font-light">which can soothe the irritation and reduce the swelling in your eyes.</div>
+              </div>
+            </div>
+            <br />
+            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+              <div className="flex mb-4 items-start">
+                <Image
+                  src="/images/circle.svg"
+                  width={20}
+                  height={20}
+                  alt="Checkmark image"
+                  className="mr-3 mt-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <div className="text-black text-base sm:text-2xl font-light">Eye hygiene</div>
+                <div className="text-neutral-500 text-base sm:text-2xl font-light">which involves washing your hands, cleaning your eyes, avoiding touching or rubbing your eyes, and stop using and discard any used contact lenses and makeup.</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
 
