@@ -311,7 +311,7 @@ export default function EyeConditions() {
             <br />
             <p>Dry eye syndrome can cause symptoms such as dryness, burning, itching, redness, sensitivity to light and blurred vision.</p>
             <br />
-            <div className="w-full mt-7 sm:mt-0 sm:min-h-[70vh] h-fill relative">
+            <div className="w-full mt-7 sm:mt-0 lg:min-h-[40vh] min-h-[30vh] relative">
               <Image
                 src="/images/homepage/7.webp"
                 fill={true}
