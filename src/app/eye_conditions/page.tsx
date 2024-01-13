@@ -240,7 +240,7 @@ export default function EyeConditions() {
         <h2 className="text-2xl xl:text-5xl text-black font-normal">Diabetic retinopathy</h2>
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden4 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
-      <div className={`${hidden3 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
+      <div className={`${hidden4 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
         <div className="hidden sm:block"><H2Title title="Diabetic retinopathy" /></div>
         {/* left right container */}
         <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
@@ -295,7 +295,7 @@ export default function EyeConditions() {
         <h2 className="text-2xl xl:text-5xl text-black font-normal">Dry eye syndrome</h2>
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden5 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
-      <div className={`${hidden3 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 bg-goldBg sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
+      <div className={`${hidden5 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 bg-goldBg sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
         <div className="hidden sm:block"><H2Title title="Dry eye syndrome" /></div>
         {/* left right container */}
         <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
@@ -311,7 +311,7 @@ export default function EyeConditions() {
             <br />
             <p>Dry eye syndrome can cause symptoms such as dryness, burning, itching, redness, sensitivity to light and blurred vision.</p>
             <br />
-            <div className="w-full sm:w-full mt-7 sm:mt-0 sm:min-h-[70vh] h-fill relative">
+            <div className="w-full mt-7 sm:mt-0 sm:min-h-[70vh] h-fill relative">
               <Image
                 src="/images/homepage/7.webp"
                 fill={true}
@@ -386,7 +386,7 @@ export default function EyeConditions() {
         <h2 className="text-2xl xl:text-5xl text-black font-normal">Conjuctivitis</h2>
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden6 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
-      <div className={`${hidden3 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
+      <div className={`${hidden6 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
         <div className="hidden sm:block"><H2Title title="Conjunctivitis" /></div>
         {/* left right container */}
         <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
