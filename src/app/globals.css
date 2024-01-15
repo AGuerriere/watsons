@@ -7,3 +7,7 @@
   background-size: 0.7rem;
   background-position: right 0.7rem center;
 }
+
+.height-custom {
+  height: calc(100vh - 390px - 7rem);
+}
