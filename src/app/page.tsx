@@ -6,6 +6,7 @@ import Card from '@/components/Card'
 import GoldButton from '@/components/GoldButton'
 import Footer from '@/components/Footer'
 import H2Title from '@/components/H2Title'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -14,14 +15,14 @@ export default function Home() {
       {/* Header */}
       <div className="text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 min-h-[400px] h-[calc(100vh-100px)] bg-[url('/images/header.webp')] bg-cover bg-no-repeat bg-center">
         <div className='bg-greenOverlay h-full pl-7 md:pl-20 '>
-            <div className='flex pl:14 flex-col justify-center h-full'>
-                <h1 className='text-5xl font-bold leading-normal xl:text-7xl md:w-4/5 lg:w-3/5 md:leading-normal xl:leading-normal lg:w-2/5'>
-                    <span className='text-gold'>Family-owned</span> and operated optometry practice with over 40 years of experience.
-                </h1>
-                <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7 mb-5'>Learn more</div>
-            </div>
+          <div className='flex pl:14 flex-col justify-center h-full'>
+            <h1 className='text-5xl font-bold leading-normal xl:text-7xl md:w-4/5 lg:w-3/5 md:leading-normal xl:leading-normal lg:w-2/5'>
+              <span className='text-gold'>Family-owned</span> and operated optometry practice with over 40 years of experience.
+            </h1>
+            <Link href="/about"><div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7 mb-5'>Learn More</div></Link>
+          </div>
         </div>
-    </div>
+      </div>
       {/* Section 1*/}
       <div className='flex flex-wrap xl:flex-nowrap mt-20 pb-20'>
         <Image
@@ -35,25 +36,26 @@ export default function Home() {
         <div className='flex order-1 xl:order-2 flex-col justify-around xl:ml-20'>
           <GoldTitle text="At Watsons" />
           <H2Title title="We’re passionate about making eyecare accessible" />
-          <p className='text-base xl:text-grey1 xl:text-2xl font-light leading-normal'>
+          <p className='text-base text-black text-base md:text-2xl font-light leading-normal'>
             See better and look great with our wide range of glasses, contact lenses and sunglasses from leading brands.
             <br /><br />
             We offer comprehensive eye tests, diagnosis and treatment for various eye conditions using the latest technology and equipment. We are the only opticians in Northern Ireland offering Repeated Low Level Red Light Therapy to slow down progression of myopia in children.
           </p>
           <br /><br />
-          <LearnMore link="/" target="_self" text="Learn more about us" />
+          <LearnMore link="/about" target="_self" text="Learn more about us" />
         </div>
       </div>
       {/* Section 2*/}
       <H2Title title="Our Products and Services" />
-      <div className='flex flex-col md:flex-row md:flex-wrap'>
-        <Card title="Eye Tests" target="_self" link="/"img="/images/homepage/3.webp" paragraph="An eye test is not just about finding out if you need glasses or contact lenses. It is a vital health check for your eyes. " />
-        <Card title="Eye Wear" target="_self"  link="/"img="/images/homepage/1.webp" paragraph="We offer a wide selection to cater for different prescriptions, and lifestyle requirements." />
-        <Card title="Contact Lenses" target="_self"  link="/"img="/images/homepage/2.webp" paragraph="If you prefer contact lenses, we can help you find the best fit and type for your eyes." />
-        <Card title="PEARS (NHS free service)" link="https://online.hscni.net/our-work/ophthalmic-services/eyes/" target="_blank" img="/images/homepage/5.webp" paragraph="The NHS has launched a new free eye care service for people with minor eye conditions." />
-        <Card title="Dry eye clinic"target="_self"  link="/"img="/images/homepage/7.webp" paragraph="With the help of our Dry Eye clinic we can recommend the best tailored plan to minimise any discomfort. " />
-        <Card title="Myopia management" target="_self" link="/" img="/images/homepage/6.webp" paragraph="Repeated Low Level Red Light (RLRL) therapy designed to slow down the progression of myopia." />
+      <div className='grid grid-cols-1 min-[1335px]:grid-cols-2 min-[1910px]:grid-cols-3 gap-4'>
+        <Card title="Eye Tests" target="_self" link="/eye_tests" img="/images/homepage/3.webp" paragraph="An eye test is not just about finding out if you need glasses or contact lenses. It is a vital health check for your eyes." />
+        <Card title="Eye Wear" target="_self" link="/frames" img="/images/homepage/1.webp" paragraph="We offer a wide selection to cater for different prescriptions, and lifestyle requirements." />
+        <Card title="Contact Lenses" target="_self" link="/contact_lenses" img="/images/homepage/2.webp" paragraph="If you prefer contact lenses, we can help you find the best fit and type for your eyes." />
+        <Card title="PEARS (NHS free service)" link="NI_PEARS" target="_self" img="/images/homepage/5.webp" paragraph="The NHS has launched a new free eye care service for people with minor eye conditions." />
+        <Card title="Dry eye clinic" target="_self" link="/dry_eye" img="/images/homepage/7.webp" paragraph="With the help of our Dry Eye clinic we can recommend the best tailored plan to minimise any discomfort." />
+        <Card title="Myopia management" target="_self" link="/myopia_management" img="/images/homepage/6.webp" paragraph="Repeated Low Level Red Light (RLRL) therapy designed to slow down the progression of myopia." />
       </div>
+
       {/* Section 3 */}
       <div className='bg-green1 flex flex-col md:flex-row text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 md:pl-20 w-[100vw] mb-10'>
         <div className='w-full md:w-2/3 pt-10 pl-7 md:pl-0'>
@@ -63,7 +65,7 @@ export default function Home() {
           <p className='font-light lg:text-2xl pr-5'>The NHS cover the cost of a sight test for a wide range of people including children aged 16 and under, 16–18-year-olds in full time education and those over 60 amongst others. For a full list of those eligible click here
             <br /><br />Emergency appointments for minor eye conditions are available. This is known as NI PEARS (Northern Ireland Primary Eyecare Assessment and Referral Service).</p>
           <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7'>
-            Learn more
+            <Link href="/NI_PEARS">Learn more</Link>
           </div>
           <br /><br />
         </div>
@@ -79,10 +81,10 @@ export default function Home() {
       </div>
       {/* Form Section */}
       <div id="contact-us" className="mb-10">
-       <H2Title title="Book your appointment today!"/>
+        <H2Title title="Book your appointment today!" />
         <div className='flex lg:flex-row flex-col'>
           <div className='w-full md:w-1/2'>
-            <GoldTitle text="Contact us"/>
+            <GoldTitle text="Contact us" />
             <h4 className="font-normal text-black text-base md:text-lg md:text-xl lg:text-3xl">Get in touch!</h4> <br />
             <p className='text-grey1 text-base mb-2 md:text-xl lg:text-2xl font-light'>To arrange an appointment or register as a new customers please fill in the form below and we will get back to you within 48 hours: </p>
             <form action="POST" data-netlify="true" className="flex flex-col mb-10">
@@ -96,30 +98,30 @@ export default function Home() {
           </div>
           <div className='flex flex-col justify-between lg:ml-10 min-h-[500px]'>
             <GoldTitle text="Locations" />
-              <h4 className='text-2xl font-normal text-black'>Portrush</h4>
-              <p className='font-light'>
-                10 Main St, Portrush, BT56 8BL <br />
-                Call us on 028 7082 3677
-              </p>
-              <h5 className='text-black text-xl'>Opening Hours</h5> 
-              <p className='font-light'>
-                Monday - Thursday: 9:00 - 17:00<br />
-                Friday: 9:00 - 15:00<br />
-                Saturday: Closed<br />
-                Sunday : Closed<br />
-              </p>
-              <h4 className='text-2xl font-normal text-black'>Ballycastle</h4>
-              <p className='font-light'>
-                41 Ann St, Ballycastle, BT54 6AA <br />
-                Call us on 028 2076 2431 
-              </p>
-              <h5 className='text-black text-xl'>Opening Hours</h5>
-              <p className='font-light'>
+            <h4 className='text-2xl font-normal text-black'>Portrush</h4>
+            <p className='font-light'>
+              10 Main St, Portrush, BT56 8BL <br />
+              Call us on 028 7082 3677
+            </p>
+            <h5 className='text-black text-xl'>Opening Hours</h5>
+            <p className='font-light'>
+              Monday - Thursday: 9:00 - 17:00<br />
+              Friday: 9:00 - 15:00<br />
+              Saturday: Closed<br />
+              Sunday : Closed<br />
+            </p>
+            <h4 className='text-2xl font-normal text-black'>Ballycastle</h4>
+            <p className='font-light'>
+              41 Ann St, Ballycastle, BT54 6AA <br />
+              Call us on 028 2076 2431
+            </p>
+            <h5 className='text-black text-xl'>Opening Hours</h5>
+            <p className='font-light'>
               Monday - Thursday: 9:00 - 17:00 <br />
               Friday: 9:00 - 15:00 <br />
               Saturday: Closed <br />
               Sunday : Closed <br />
-              </p>
+            </p>
           </div>
         </div>
       </div>

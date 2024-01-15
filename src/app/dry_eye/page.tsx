@@ -80,7 +80,7 @@ export default function Dry_Eye() {
         <div className="flex flex-col sm:flex-row justify-between sm:items-end text-black text-base md:text-2xl font-light pt-10 pb-10">
           <p className="sm:w-2/5">Please contact us to arrange an appointment for our Dry Eye clinic if you think this is something we can help with.</p>
           <div className="w-2/5 mt-10 sm:mt-0">
-            <LearnMore text="Contact Us" link="/" target="_self" />
+            <LearnMore text="Contact Us" link="/#contact-us" target="_self" />
           </div>
         </div>
       </div>

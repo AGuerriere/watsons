@@ -13,7 +13,7 @@ export default function ContactLenses() {
       <Navbar />
       <Header title="Contact lenses" image="/images/homepage/2.webp" percentage="30" />
       {/* Section 1 */}
-      <div className="sm:w-2/5 mb-10 mt-10">
+      <div className="lg:w-2/5 mb-10 mt-10">
         <GoldTitle text="Contact Lenses" />
         <br />
         <H2Title title="What we offer" />

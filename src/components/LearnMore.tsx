@@ -13,7 +13,7 @@ export default function LearnMore(props:propsType) {
   return (
     <>
       <Link href={props.link} target={props.target}>
-      <p className="text-gold">{props.text} 
+      <p className="text-gold text-base md:text-2xl font-normal">{props.text} 
       <Image
           src="/images/right-arrow.svg"
           width={24}

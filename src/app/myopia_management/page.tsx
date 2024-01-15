@@ -29,7 +29,7 @@ export default function Myopia_Management() {
             </p>
             <br /><br />
             {/* img container */}
-              <div className="flex justify-center md:justify-end w-full relative w-full md:min-h-[400px]">
+              <div className="flex justify-center md:justify-end w-full relative w-full min-h-[200px] md:min-h-[400px]">
                 <Image
                   src="/images/homepage/6.webp"
                   fill
@@ -52,7 +52,7 @@ export default function Myopia_Management() {
             <h5 className="font-normal">If you’re interested in hearing more please contact us.</h5>
             <br />
             <div className="w-2/5 mt-10 sm:mt-0">
-              <LearnMore text="Contact Us" link="/" target="_self" />
+              <LearnMore text="Contact Us" link="/#contact-us" target="_self" />
           </div>
           </div>
         </div>
