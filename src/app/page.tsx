@@ -87,7 +87,7 @@ export default function Home() {
             <GoldTitle text="Contact us" />
             <h4 className="font-normal text-black text-base md:text-lg md:text-xl lg:text-3xl">Get in touch!</h4> <br />
             <p className='text-grey1 text-base mb-2 md:text-xl lg:text-2xl font-light'>To arrange an appointment or register as a new customers please fill in the form below and we will get back to you within 48 hours: </p>
-            <form action="POST" data-netlify="true" className="flex flex-col mb-10">
+            <form name="contact" method="POST" action="/success" data-netlify="true"  className="flex flex-col mb-10">
               <input type="text" name="name" id="name" placeholder="Name*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
               <input type="email" name="email" id="email" placeholder="Email*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
               <input type="tel" name="tel" id="tel" placeholder="Mobile Number*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
