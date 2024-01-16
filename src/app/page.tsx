@@ -24,16 +24,18 @@ export default function Home() {
         </div>
       </div>
       {/* Section 1*/}
-      <div className='flex flex-wrap xl:flex-nowrap mt-20 pb-20'>
-        <Image
-          src="/images/homepage/6.webp"
-          width={590}
-          height={520}
-          alt="Picture of a patient undergoing an eye test"
-          className='order-2 xl:order-1'
-        />
+      <div className='flex flex-col lg:flex-row mt-20 pb-20'>
+      <div className="flex order-2 lg:order-1 justify-center lg:justify-end w-full lg:w-2/5 relative min-h-[500px]">
+          <Image
+            src="/images/homepage/6.webp"
+            fill
+            sizes="100%"
+            alt="Picture of an eye test tool"
+            className='w-auto object-cover'
+          />
+        </div>
         <br /><br />
-        <div className='flex order-1 xl:order-2 flex-col justify-around xl:ml-20'>
+        <div className='flex w-full lg:w-2/5 order-1 lg:order-2 flex-col justify-between lg:ml-20'>
           <div className='mb-10'>
             <GoldTitle text="At Watsons" />
           </div>
@@ -87,8 +89,10 @@ export default function Home() {
         <div className='flex lg:flex-row flex-col'>
           <div className='w-full md:w-1/2'>
             <GoldTitle text="Contact us" />
+            <br />
             <h4 className="font-normal text-black text-base md:text-lg md:text-xl lg:text-3xl">Get in touch!</h4> <br />
             <p className='text-grey1 text-base mb-2 md:text-xl lg:text-2xl font-light'>To arrange an appointment or register as a new customers please fill in the form below and we will get back to you within 48 hours: </p>
+            <br />
             <form name="contact" method="POST" action="/success" data-netlify="true" className="flex flex-col mb-10">
               <input type="text" name="name" id="name" placeholder="Name*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
               <input type="email" name="email" id="email" placeholder="Email*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />

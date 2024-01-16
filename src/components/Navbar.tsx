@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <>
       {/* Desktop Navbar */}
-      <nav className="hidden lg:flex h-[100px] md:justify-between items-center text-sm lg:text-xl md:-ml-18 md:-mr-18">
+      <nav className="hidden lg:flex h-[100px] md:justify-between items-center text-sm lg:text-xl -ml-20 -mr-20 pl-2 pr-2 min-[1227px]:ml-0 min-[1227px]:mr-0">
         <div className="">
           <Link
             href="/">
@@ -45,8 +45,8 @@ export default function Navbar() {
         <Link href="/" className="active:text-black">Home</Link>
         <Link href="/about" className="active:text-black">About Us</Link>
         <div className="group inline-block relative">
-          <button className="py-2 px-4 rounded inline-flex items-center">
-            <span className="form-select bg-no-repeat pr-8 pl-2">Eye Tests</span>
+          <button className="rounded inline-flex items-center">
+            <span className="form-select bg-no-repeat pr-8">Eye Tests</span>
           </button>
           <div className="absolute hidden group-hover:block">
             <div className="bg-white rounded shadow-lg py-1 min-w-[250px] ">
@@ -58,8 +58,8 @@ export default function Navbar() {
         <Link href="/frames">Eye Wear</Link>
         <Link href="/contact_lenses">Contact Lenses</Link>
         <div className="group inline-block relative">
-          <button className="py-2 px-4 rounded inline-flex items-center">
-            <span className="form-select bg-no-repeat pr-8 pl-2">Eye Conditions</span>
+          <button className="rounded inline-flex items-center">
+            <span className="form-select bg-no-repeat pr-8">Eye Conditions</span>
           </button>
           <div className="absolute hidden group-hover:block">
             <div className="bg-white rounded shadow-lg py-1 min-w-[250px] ">
