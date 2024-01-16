@@ -34,10 +34,10 @@ export default function Footer() {
           </div>
           <div className="flex flex-col justify-between min-h-[290px]">
             <div className="flex flex-col">
-              <Link href="/about">Eye Tests</Link>
-              <Link href="/about">Eye Wear</Link>
-              <Link href="/about">Contact Lenses</Link>
-              <Link href="/about">Eye Conditions</Link>
+              <Link href="/eye_tests">Eye Tests</Link>
+              <Link href="/frames">Eye Wear</Link>
+              <Link href="/contact_lenses">Contact Lenses</Link>
+              <Link href="/eye_conditions">Eye Conditions</Link>
             </div>
             <div>
             <h5>Opening Hours</h5> <br />

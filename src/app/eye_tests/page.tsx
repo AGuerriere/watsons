@@ -43,8 +43,8 @@ export default function EyeTests() {
       </div>
 
       {/* Section 2 */}
-      <div className="flex flex-col sm:flex-row">
-        <div className="flex justify-center md:justify-end w-full md:w-1/2 relative min-h-[500px] md:min-h-[700px]">
+      <div className="flex flex-col lg:flex-row -ml-7 -mr-7 md:-ml-20 md:-mr-20">
+        <div className="flex justify-center lg:justify-end w-full lg:w-1/2 relative min-h-[500px] lg:min-h-[700px]">
           <Image
             src="/images/homepage/9.webp"
             fill
@@ -53,9 +53,11 @@ export default function EyeTests() {
             className='order-2 xl:order-1 -pl-7 w-auto object-cover'
           />
         </div>
-        <div className='w-full bg-greenOverlay md:w-1/2 p-8'>
+        <div className='w-full bg-green1 lg:w-1/2 p-8'>
+          <GoldTitle text="Eye Tests" />
+          <br />
           <h2 className="text-light text-[32px] md:text-[40px] text-white">What to expect</h2> <br /><br />
-          <p className="text-white text-base md:text-2xl text-light">
+          <p className="text-white font-light text-base md:text-2xl">
             Our eye tests usually last around 30 minutes. During the test we carry out a regular routine of checks and based on the results of these tailor our test to suit your individual needs. <br /><br />
             Our equipment includes a digital retinal camera which allows us to take photographs of the inside of your eyes so even small abnormalities can be detected, recorded and compared in future checks. We also have an OCT, otherwise known as Ocular Coherence Tomography, which is an advanced eye scan for people of all ages. In a similar way to ultrasound, OCT uses light rather than sound waves to illustrate the different layers that make up the back of the eye, allowing us to rapidly diagnose a number of common eye conditions e.g., Macular Degeneration, Glaucoma and Diabetes. <br /><br />
             Once the test is complete the optician will explain the results of your test, and make any recommendations based on these. <br /><br />
