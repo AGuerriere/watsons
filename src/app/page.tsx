@@ -16,7 +16,7 @@ export default function Home() {
       <div className="text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 min-h-[400px] h-[calc(100vh-100px)] bg-[url('/images/header.webp')] bg-cover bg-no-repeat bg-center">
         <div className='bg-greenOverlay h-full pl-7 md:pl-20 '>
           <div className='flex pl:14 flex-col justify-center h-full'>
-            <h1 className='text-5xl font-bold leading-normal xl:text-7xl md:w-4/5 lg:w-3/5 md:leading-normal xl:leading-normal lg:w-2/5'>
+            <h1 className='text-5xl font-bold leading-normal xl:text-7xl md:w-4/5 lg:w-3/5 md:leading-normal'>
               <span className='text-gold'>Family-owned</span> and operated optometry practice with over 40 years of experience.
             </h1>
             <Link href="/about"><div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7 mb-5'>Learn More</div></Link>
