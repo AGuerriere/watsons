@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <>
       {/* Desktop Navbar */}
-      <nav className="hidden lg:flex h-[100px] md:justify-between items-center text-sm lg:text-xl">
+      <nav className="hidden lg:flex h-[100px] md:justify-between items-center text-sm lg:text-xl md:-ml-18 md:-mr-18">
         <div className="">
           <Link
             href="/">

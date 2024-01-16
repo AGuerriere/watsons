@@ -34,9 +34,11 @@ export default function Home() {
         />
         <br /><br />
         <div className='flex order-1 xl:order-2 flex-col justify-around xl:ml-20'>
-          <GoldTitle text="At Watsons" />
+          <div className='mb-10'>
+            <GoldTitle text="At Watsons" />
+          </div>
           <H2Title title="We’re passionate about making eyecare accessible" />
-          <p className='text-base text-black text-base md:text-2xl font-light leading-normal'>
+          <p className='text-base  text-base md:text-2xl font-light leading-normal'>
             See better and look great with our wide range of glasses, contact lenses and sunglasses from leading brands.
             <br /><br />
             We offer comprehensive eye tests, diagnosis and treatment for various eye conditions using the latest technology and equipment. We are the only opticians in Northern Ireland offering Repeated Low Level Red Light Therapy to slow down progression of myopia in children.
@@ -61,7 +63,7 @@ export default function Home() {
         <div className='w-full md:w-2/3 pt-10 pl-7 md:pl-0'>
           <GoldTitle text='Free NHS Service' />
           <br />
-          <h2 className='text-white text-2xl xl:text-5xl text-black font-normal pb-10'>Our Products and Services</h2>
+          <h2 className='text-white text-2xl xl:text-5xl  font-normal pb-10'>Our Products and Services</h2>
           <p className='font-light lg:text-2xl pr-5'>The NHS cover the cost of a sight test for a wide range of people including children aged 16 and under, 16–18-year-olds in full time education and those over 60 amongst others. For a full list of those eligible click here
             <br /><br />Emergency appointments for minor eye conditions are available. This is known as NI PEARS (Northern Ireland Primary Eyecare Assessment and Referral Service).</p>
           <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7'>
@@ -87,7 +89,7 @@ export default function Home() {
             <GoldTitle text="Contact us" />
             <h4 className="font-normal text-black text-base md:text-lg md:text-xl lg:text-3xl">Get in touch!</h4> <br />
             <p className='text-grey1 text-base mb-2 md:text-xl lg:text-2xl font-light'>To arrange an appointment or register as a new customers please fill in the form below and we will get back to you within 48 hours: </p>
-            <form name="contact" method="POST" action="/success" data-netlify="true"  className="flex flex-col mb-10">
+            <form name="contact" method="POST" action="/success" data-netlify="true" className="flex flex-col mb-10">
               <input type="text" name="name" id="name" placeholder="Name*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
               <input type="email" name="email" id="email" placeholder="Email*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />
               <input type="tel" name="tel" id="tel" placeholder="Mobile Number*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" />

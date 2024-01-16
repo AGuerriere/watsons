@@ -15,7 +15,7 @@ export default function About() {
         <div className="md:w-1/2">
           <div className="mt-5 md:mt-auto flex flex-col items-start md:w-3/5">
             <GoldTitle text="Our Mission" />
-            <p className="mt-2 font-light text-2xl md:text-[32px]">Our mission is to provide quality eye care and products to our customers, with a focus on customer satisfaction, professionalism and innovation</p>
+            <p className="mt-2 font-light text-base md:text-2xl">Our mission is to provide quality eye care and products to our customers, with a focus on customer satisfaction, professionalism and innovation</p>
           </div>
         </div>
       </div>
@@ -29,23 +29,23 @@ export default function About() {
         <H2Title title="Our aims" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-rows-2 min-h-[800px] md:min-h-[500px] lg:min-h-0 gap-5">
-        <div className="px-[15px] py-[25px] bg-orange-300 bg-opacity-10 justify-center items-center md:mr-5 lg:mb-5">
-          <div className="text-center text-teal-950 text-base lg:text-xl xl:text-2xl font-light font-['Source_Sans_Pro']">Offer a wide range of glasses, contact lenses and sunglasses from leading brands and at competitive prices.</div>
+        <div className="p-10 bg-orange-300 bg-opacity-10 justify-center items-center md:mr-5 lg:mb-5">
+          <div className="text-center text-teal-950 text-base lg:text-xl xl:text-2xl font-light">Offer a wide range of glasses, contact lenses and sunglasses from leading brands and at competitive prices.</div>
         </div>
-        <div className="px-[15px] py-[25px] bg-orange-300 bg-opacity-10 justify-center items-center md:mr-5 lg:mb-5">
-          <div className="text-center text-teal-950 text-base lg:text-xl xl:text-2xl font-light font-['Source_Sans_Pro']">Offer a wide range of glasses, contact lenses and sunglasses from leading brands and at competitive prices.</div>
+        <div className="p-10 bg-orange-300 bg-opacity-10 justify-center items-center md:mr-5 lg:mb-5">
+          <div className="text-center text-teal-950 text-base lg:text-xl xl:text-2xl font-light">Offer a wide range of glasses, contact lenses and sunglasses from leading brands and at competitive prices.</div>
         </div>
-        <div className="px-[15px] py-[25px] bg-orange-300 bg-opacity-10 justify-center items-center md:mr-5 lg:mb-5">
-          <div className="text-center text-teal-950 text-base lg:text-xl xl:text-2xl font-light font-['Source_Sans_Pro']">Offer a wide range of glasses, contact lenses and sunglasses from leading brands and at competitive prices.</div>
+        <div className="p-10 bg-orange-300 bg-opacity-10 justify-center items-center md:mr-5 lg:mb-5">
+          <div className="text-center text-teal-950 text-base lg:text-xl xl:text-2xl font-light">Offer a wide range of glasses, contact lenses and sunglasses from leading brands and at competitive prices.</div>
         </div>
-        <div className="px-[15px] py-[25px] bg-orange-300 bg-opacity-10 justify-center items-center md:mr-5 lg:mb-5">
-          <div className="text-center text-teal-950 text-base lg:text-xl xl:text-2xl font-light font-['Source_Sans_Pro']">Offer a wide range of glasses, contact lenses and sunglasses from leading brands and at competitive prices.</div>
+        <div className="p-10 bg-orange-300 bg-opacity-10 justify-center items-center md:mr-5 lg:mb-5">
+          <div className="text-center text-teal-950 text-base lg:text-xl xl:text-2xl font-light">Offer a wide range of glasses, contact lenses and sunglasses from leading brands and at competitive prices.</div>
         </div>
-        <div className="xl:col-span-2 px-[15px] py-[25px] bg-orange-300 bg-opacity-10 justify-center items-center md:mr-5 lg:mb-5">
-          <div className="text-center text-teal-950 text-base lg:text-xl xl:text-2xl font-light font-['Source_Sans_Pro']">Offer a wide range of glasses, contact lenses and sunglasses from leading brands and at competitive prices.</div>
+        <div className="xl:col-span-2 p-10 bg-orange-300 bg-opacity-10 justify-center items-center md:mr-5 lg:mb-5">
+          <div className="text-center text-teal-950 text-base lg:text-xl xl:text-2xl font-light">Offer a wide range of glasses, contact lenses and sunglasses from leading brands and at competitive prices.</div>
         </div>
-        <div className="xl:col-span-2 px-[15px] py-[25px] bg-orange-300 bg-opacity-10 justify-center items-center md:mr-5 lg:mb-5">
-          <div className="text-center text-teal-950 text-base lg:text-xl xl:text-2xl font-light font-['Source_Sans_Pro']">Offer a wide range of glasses, contact lenses and sunglasses from leading brands and at competitive prices.</div>
+        <div className="xl:col-span-2 p-10 bg-orange-300 bg-opacity-10 justify-center items-center md:mr-5 lg:mb-5">
+          <div className="text-center text-teal-950 text-base lg:text-xl xl:text-2xl font-light">Offer a wide range of glasses, contact lenses and sunglasses from leading brands and at competitive prices.</div>
         </div>
 
       </div>
