@@ -172,8 +172,8 @@ export default function Frames() {
               />
             </div>
             <div className="flex flex-col">
-              <div className="text-black text-base sm:text-2xl font-light">Thinner, lighter lenses</div>
-              <div className="text-neutral-500 text-base sm:text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+              <div className="text-black text-base sm:text-2xl font-light">Anti-reflective lenses</div>
+              <div className="text-neutral-500 text-base sm:text-2xl font-light">For those who spend a lot of time looking at screens or who struggle with glare when driving at night.</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
@@ -187,8 +187,8 @@ export default function Frames() {
               />
             </div>
             <div className="flex flex-col">
-              <div className="text-black text-base sm:text-2xl font-light">Thinner, lighter lenses</div>
-              <div className="text-neutral-500 text-base sm:text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+              <div className="text-black text-base sm:text-2xl font-light">Multi-focals</div>
+              <div className="text-neutral-500 text-base sm:text-2xl font-light">For those who need distance and reading glasses but don’t want to have multiple pairs</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
@@ -202,8 +202,8 @@ export default function Frames() {
               />
             </div>
             <div className="flex flex-col">
-              <div className="text-black text-base sm:text-2xl font-light">Thinner, lighter lenses</div>
-              <div className="text-neutral-500 text-base sm:text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+              <div className="text-black text-base sm:text-2xl font-light">Transition lenses</div>
+              <div className="text-neutral-500 text-base sm:text-2xl font-light">Which darken in the sun for those who want one pair of glasses to act as day-to-day glasses and sunglasses</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
@@ -217,8 +217,8 @@ export default function Frames() {
               />
             </div>
             <div className="flex flex-col">
-              <div className="text-black text-base sm:text-2xl font-light">Thinner, lighter lenses</div>
-              <div className="text-neutral-500 text-base sm:text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
+              <div className="text-black text-base sm:text-2xl font-light">Enhanced readers</div>
+              <div className="text-neutral-500 text-base sm:text-2xl font-light">For those who spend a lot of their working day in an office or at a computer.</div>
             </div>
           </div>
         </div>

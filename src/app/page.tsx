@@ -25,7 +25,7 @@ export default function Home() {
       </div>
       {/* Section 1*/}
       <div className='flex flex-col lg:flex-row mt-20 pb-20'>
-      <div className="flex order-2 lg:order-1 justify-center lg:justify-end w-full lg:w-2/5 relative min-h-[500px]">
+        <div className="flex order-2 lg:order-1 justify-center lg:justify-end w-full lg:w-2/5 relative min-h-[500px]">
           <Image
             src="/images/homepage/6.webp"
             fill
@@ -50,19 +50,21 @@ export default function Home() {
         </div>
       </div>
       {/* Section 2*/}
-      <H2Title title="Our Products and Services" />
-      <div className='grid grid-cols-1 min-[1335px]:grid-cols-2 min-[1910px]:grid-cols-3 gap-4'>
-        <Card title="Eye Tests" target="_self" link="/eye_tests" img="/images/homepage/3.webp" paragraph="An eye test is not just about finding out if you need glasses or contact lenses. It is a vital health check for your eyes." />
-        <Card title="Eye Wear" target="_self" link="/frames" img="/images/homepage/1.webp" paragraph="We offer a wide selection to cater for different prescriptions, and lifestyle requirements." />
-        <Card title="Contact Lenses" target="_self" link="/contact_lenses" img="/images/homepage/2.webp" paragraph="If you prefer contact lenses, we can help you find the best fit and type for your eyes." />
-        <Card title="PEARS (NHS free service)" link="NI_PEARS" target="_self" img="/images/homepage/5.webp" paragraph="The NHS has launched a new free eye care service for people with minor eye conditions." />
-        <Card title="Dry eye clinic" target="_self" link="/dry_eye" img="/images/homepage/7.webp" paragraph="With the help of our Dry Eye clinic we can recommend the best tailored plan to minimise any discomfort." />
-        <Card title="Myopia management" target="_self" link="/myopia_management" img="/images/homepage/6.webp" paragraph="Repeated Low Level Red Light (RLRL) therapy designed to slow down the progression of myopia." />
+      <div>
+        <H2Title title="Our Products and Services" />
+        <div className='grid grid-cols-1 min-[1335px]:grid-cols-2 min-[1910px]:grid-cols-3 gap-4'>
+          <Card title="Eye Tests" target="_self" link="/eye_tests" img="/images/homepage/3.webp" paragraph="An eye test is not just about finding out if you need glasses or contact lenses. It is a vital health check for your eyes." />
+          <Card title="Eye Wear" target="_self" link="/frames" img="/images/homepage/1.webp" paragraph="We offer a wide selection to cater for different prescriptions, and lifestyle requirements." />
+          <Card title="Contact Lenses" target="_self" link="/contact_lenses" img="/images/homepage/2.webp" paragraph="If you prefer contact lenses, we can help you find the best fit and type for your eyes." />
+          <Card title="PEARS (NHS free service)" link="NI_PEARS" target="_self" img="/images/homepage/5.webp" paragraph="The NHS has launched a new free eye care service for people with minor eye conditions." />
+          <Card title="Dry eye clinic" target="_self" link="/dry_eye" img="/images/homepage/7.webp" paragraph="With the help of our Dry Eye clinic we can recommend the best tailored plan to minimise any discomfort." />
+          <Card title="Myopia management" target="_self" link="/myopia_management" img="/images/homepage/6.webp" paragraph="Repeated Low Level Red Light (RLRL) therapy designed to slow down the progression of myopia." />
+        </div>
       </div>
 
       {/* Section 3 */}
-      <div className='bg-green1 flex flex-col md:flex-row text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 md:pl-20 w-[100vw] mb-10'>
-        <div className='w-full md:w-2/3 pt-10 pl-7 md:pl-0'>
+      <div className='bg-green1 flex flex-col md:flex-row text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 md:pl-20 w-[100vw] mb-10 '>
+        <div className='w-full md:w-2/3 pt-10 pl-7'>
           <GoldTitle text='Free NHS Service' />
           <br />
           <h2 className='text-white text-2xl xl:text-5xl  font-normal pb-10'>Our Products and Services</h2>
