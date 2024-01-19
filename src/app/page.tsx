@@ -25,7 +25,7 @@ export default function Home() {
       </div>
       {/* Section 1*/}
       <div className='flex flex-col lg:flex-row mt-20 pb-20'>
-        <div className="flex order-2 lg:order-1 justify-center lg:justify-end w-full lg:w-2/5 relative min-h-[500px]">
+        <div className="flex order-2 lg:order-1 justify-center lg:justify-end w-full lg:w-2/5 relative min-h-[250px] lg:min-h-[500px]">
           <Image
             src="/images/homepage/6.webp"
             fill
@@ -40,7 +40,7 @@ export default function Home() {
             <GoldTitle text="At Watsons" />
           </div>
           <H2Title title="We’re passionate about making eyecare accessible" />
-          <p className='text-base  text-base md:text-2xl font-light leading-normal'>
+          <p className='text-base text-base md:text-2xl font-light leading-normal'>
             See better and look great with our wide range of glasses, contact lenses and sunglasses from leading brands.
             <br /><br />
             We offer comprehensive eye tests, diagnosis and treatment for various eye conditions using the latest technology and equipment. We are the only opticians in Northern Ireland offering Repeated Low Level Red Light Therapy to slow down progression of myopia in children.
