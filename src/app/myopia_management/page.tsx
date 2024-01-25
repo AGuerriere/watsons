@@ -52,7 +52,7 @@ export default function Myopia_Management() {
             <h5 className="font-normal">If you’re interested in hearing more please contact us.</h5>
             <br />
             <div className="w-2/5 mt-10 sm:mt-0">
-              <LearnMore text="Contact Us" link="/#contact-us" target="_self" />
+              <LearnMore text="Contact Us" link="https://watsonsopticians.com#contact-us" target="_self" />
           </div>
           </div>
         </div>

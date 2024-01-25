@@ -133,7 +133,7 @@ export default function ContactLenses() {
       <div className="flex flex-col sm:flex-row justify-between pb-10">
         <p className="sm:w-2/5 text-neutral-500 text-2xl font-light">If you’re interested in contact lenses or finding out more about  Ortho-K lenses and whether they’ll work for you contact us</p>
         <div className="sm:w-2/5 text-2xl mt-7 flex items-end">
-          <LearnMore text="Contact us" link="/#contact-us" target="_self" /></div>
+          <LearnMore text="Contact us" link="https://watsonsopticians.com#contact-us" target="_self" /></div>
       </div>
       <br />
       <Footer />
