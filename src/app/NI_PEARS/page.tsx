@@ -25,7 +25,7 @@ export default function NI_PEARS(){
             <p className="text-grey1 text-base md:text-2xl font-light">We will assess and treat the condition or make a referral where appropriate.</p><br />
             <LearnMore text="Visit NHS PEARS website" link="https://online.hscni.net/our-work/ophthalmic-services/eyes/" target="_blank" />
             <br />
-            <GoldButton text="Book Appointment" />
+            <a href="https://watsonsopticians.com/#contact-us"><GoldButton text='Book Appointment'></GoldButton></a>
           </div>
           <div className="sm:w-2/5 mt-10 sm:mt-0 text-grey1 text-base md:text-2xl font-light">
             <p>Who is eligible for a PEARS appointment?</p>

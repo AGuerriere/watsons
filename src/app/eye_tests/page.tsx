@@ -28,7 +28,7 @@ export default function EyeTests() {
               <p className="text-teal-950 text-xl font-normal">of sight loss is preventable</p>
             </div>
             <br />
-            <p className="text-neutral-500 text-2xl font-light">So getting your eyes tested can help prevent, or limit, the damage caused by certain eye conditions. For more information on common eye conditions click here</p>
+            <p className="text-neutral-500 text-2xl font-light">So getting your eyes tested can help prevent, or limit, the damage caused by certain eye conditions. For more information on common eye conditions <Link href="/eye_conditions">click here.</Link></p>
             <br />
             <Link href="/#contact-us"><GoldButton text='Book Appointment'></GoldButton></Link>
           </div>
@@ -71,7 +71,7 @@ export default function EyeTests() {
         <br />
         <H2Title title="Did you know?" />
         <div className="flex flex-col sm:flex-row justify-evenly sm:justify-between min-h-[300px]">
-          <p className="sm:w-2/5 text-base font-light md:text-2xl">The NHS cover the cost of a sight test for a wide range of people including children aged 16 and under, 16–18-year-olds in full time education and those over 60 amongst others. For a full list of those eligible click here</p>
+          <p className="sm:w-2/5 text-base font-light md:text-2xl">The NHS cover the cost of a sight test for a wide range of people including children aged 16 and under, 16–18-year-olds in full time education and those over 60 amongst others. For a full list of those eligible <a href="https://www.nidirect.gov.uk/articles/eye-care#toc-7" target="_blank">click here.</a></p>
           <div className="sm:w-2/5 text-base font-light md:text-2xl">
             <p className="mb-3 md:mb-5">Emergency appointments for minor eye conditions are available. This is known as NI PEARS (Northern Ireland Primary Eyecare Assessment and Referral Service)</p>
             <LearnMore text="Learn more about NI PEARS " target="_self" link="NI_PEARS"/>
