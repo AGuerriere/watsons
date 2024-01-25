@@ -104,7 +104,7 @@ export default function Home() {
               <div className='flex justify-between w-1/3'>
                 <div>
                   <input type="radio" id="ballycastle" name="location" value="Ballycastle" required />
-                  <label className="ml-1" htmlFor="ballycastle">Ballycastle</label>
+                  <label className="ml-1" htmlFor="ballycastle">ballycastle</label>
                 </div>
                 <div>
                   <input type="radio" id="portrush" name="location" value="Portrush" required />
