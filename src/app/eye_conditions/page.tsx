@@ -400,8 +400,19 @@ export default function EyeConditions() {
             <br />
             <h5 className="text-gold font-normal">Symptoms</h5>
             <br />
-            <p>Conjunctivitis can cause symptoms such as redness, itching, burning, discharge, crustiness and sensitivity to light.</p>
+            <p>Conjunctivitis can cause symptoms such as red eye, itching, burning, discharge, crustiness and sensitivity to light.</p>
             <br />
+            <h5 className="text-gold font-normal">Other Causes of red eye include: </h5>
+            <ul>
+              <li>A burst blood vessel,</li>
+              <li>Blepharitis</li>
+              <li>an Ingrowing eye lash</li>
+              <li> a Foreign body</li>
+              <li>Eyelid problems</li>
+              <li>Dry eyes though there are more causes</li>
+
+            </ul>
+            <p>An examination is required to determine the cause and treatment required</p>
           </div>
           {/* Right */}
           <div className="sm:w-2/5">

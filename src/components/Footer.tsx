@@ -19,6 +19,7 @@ export default function Footer() {
           <div className="flex flex-col">
             <Link href="/">Home</Link>
             <Link href="/about">About Us</Link>
+            <a href="https://www.facebook.com/p/Watsons-Opticians-100063738933177/" target="_blank">Click here for our latest</a>
           </div>
           <div>
             <h5>Locations</h5>

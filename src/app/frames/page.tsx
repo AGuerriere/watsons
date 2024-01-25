@@ -35,7 +35,7 @@ export default function Frames() {
       </div>
       {/* Section 2 */}
       <GoldTitle text="Brands" />
-      <div className="overflow-auto whitespace-nowrap flex pb-7 pt-7">
+      <div className="overflow-auto whitespace-nowrap flex pb-7 pt-7 ">
         <Image
           src="/images/brands/Picture_2.webp"
           width={0}
@@ -133,7 +133,7 @@ export default function Frames() {
       <H2Title title="Lenses" />
       <div className="flex flex-col sm:flex-row justify-between mb-10">
         <div className="text-neutral-500 sm:w-2/5 text-base sm:text-2xl font-light mb-7 sm:mb-0">We’re passionate about providing the best possible outcome for all our patients and will be on hand to recommend the lens that best meets your requirements.</div>
-        <div className="text-neutral-500 sm:w-2/5 text-base sm:text-2xl font-light">Picking the right lenses for your glasses is just as important than choosing the right frame. While lenses might all look similar, we offer a wide selection to cater for different prescriptions, and lifestyle requirements such as:</div>
+        <div className="text-neutral-500 sm:w-2/5 text-base sm:text-2xl font-light">Picking the right lenses for your glasses is just as important as choosing the right frame. While lenses might all look similar, we offer a wide selection to cater for different prescriptions, and lifestyle requirements such as:</div>
       </div>
       <div className="flex flex-col sm:flex-row sm:justify-between mb-10">
         <div className="w-full sm:w-2/5 mt-7 sm:mt-0 sm:min-h-[70vh] h-fill relative">
@@ -187,8 +187,38 @@ export default function Frames() {
               />
             </div>
             <div className="flex flex-col">
-              <div className="text-black text-base sm:text-2xl font-light">Multi-focals</div>
+              <div className="text-black text-base sm:text-2xl font-light">Driving lenses</div>
+              <div className="text-neutral-500 text-base sm:text-2xl font-light">DriveSafe lenses designed to enhance the driving experience especially at night</div>
+            </div>
+          </div>
+          <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+            <div className="flex mb-4 items-start">
+              <Image
+                src="/images/circle.svg"
+                width={20}
+                height={20}
+                alt="Checkmark image"
+                className="mr-3 mt-1"
+              />
+            </div>
+            <div className="flex flex-col">
+              <div className="text-black text-base sm:text-2xl font-light">Multifocals</div>
               <div className="text-neutral-500 text-base sm:text-2xl font-light">For those who need distance and reading glasses but don’t want to have multiple pairs</div>
+            </div>
+          </div>
+          <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+            <div className="flex mb-4 items-start">
+              <Image
+                src="/images/circle.svg"
+                width={20}
+                height={20}
+                alt="Checkmark image"
+                className="mr-3 mt-1"
+              />
+            </div>
+            <div className="flex flex-col">
+              <div className="text-black text-base sm:text-2xl font-light">Enhanced readers</div>
+              <div className="text-neutral-500 text-base sm:text-2xl font-light">For those who spend a lot of their working day in an office or at a computer.</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
@@ -217,8 +247,8 @@ export default function Frames() {
               />
             </div>
             <div className="flex flex-col">
-              <div className="text-black text-base sm:text-2xl font-light">Enhanced readers</div>
-              <div className="text-neutral-500 text-base sm:text-2xl font-light">For those who spend a lot of their working day in an office or at a computer.</div>
+              <div className="text-black text-base sm:text-2xl font-light">Myopia control lenses</div>
+              <div className="text-neutral-500 text-base sm:text-2xl font-light">Myopia control lenses desgined to slow down the progression of myopia in children</div>
             </div>
           </div>
         </div>
