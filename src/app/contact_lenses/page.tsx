@@ -42,7 +42,7 @@ export default function ContactLenses() {
             {/* Left */}
             <div className="sm:w-1/2 p-5 sm:p-10 border-solid border-b-2 sm:border-b-0 sm:border-r-2">
               <h5 className="text-black text-xl sm:text-[32px] font-light mb-5">Fortnightly or monthly lenses</h5>
-              <p className="text-neutral-500 text-base sm:text-2xl font-light">Reusable lenses that you wear for two weeks or a month and then replace with a new pair</p>
+              <p className="text-neutral-500 text-base sm:text-2xl font-light">Reusable lenses that you reuse for two weeks or a month and then replace with a new pair</p>
             </div >
             {/* Right */}
             <div className="sm:w-1/2 p-5 sm:p-10">
@@ -55,7 +55,7 @@ export default function ContactLenses() {
             {/* Left */}
             <div className="sm:w-1/2 p-5 sm:p-10 border-solid border-b-2 sm:border-b-0 sm:border-r-2">
               <h5 className="text-black text-xl sm:text-[32px] font-light mb-5">Yearly/gas permeable lenses</h5>
-              <p className="text-neutral-500 text-base sm:text-2xl font-light">Reusable lenses that you wear for two weeks or a month and then replace with a new pair</p>
+              <p className="text-neutral-500 text-base sm:text-2xl font-light">Reusable lenses that you reuse for a year and then replace with a new pair</p>
             </div >
             {/* Right */}
             <div className="sm:w-1/2 p-5 sm:p-10">
@@ -67,19 +67,19 @@ export default function ContactLenses() {
           <div className="flex flex-col sm:flex-row border-solid border-b-2">
             {/* Left */}
             <div className="sm:w-1/2 p-5 sm:p-10 border-solid border-b-2 sm:border-b-0 sm:border-r-2">
-              <h5 className="text-black text-xl sm:text-[32px] font-light mb-5">Multifocal lenses</h5>
-              <p className="text-neutral-500 text-base sm:text-2xl font-light">Reusable lenses that you wear for two weeks or a month and then replace with a new pair</p>
+              <h5 className="text-black text-xl sm:text-[32px] font-light mb-5">Multifocal contact lenses</h5>
+              <p className="text-neutral-500 text-base sm:text-2xl font-light">Also known as bifocal or progressive lenses. These correct both your Distance and Near vision at the same time and can totally replace glasses </p>
             </div >
             {/* Right */}
             <div className="sm:w-1/2 p-5 sm:p-10">
-              <div><Checkmark text="Also known as bifocal or progressive lenses" /></div>
+              <div><Checkmark text="These lenses are available in: daily, monthly or gas permeable yearly" /></div>
             </div>
           </div>
           {/* Row 5*/}
           <div className="flex flex-col sm:flex-row">
             {/* Left */}
             <div className="sm:w-1/2 p-5 sm:p-10 border-solid border-b-2 sm:border-b-0 sm:border-r-2">
-              <h5 className="text-black text-xl sm:text-[32px] font-light mb-5">Orthokeratology lenses</h5>
+              <h5 className="text-black text-xl sm:text-[32px] font-light mb-5">Orthokeratology contact lenses</h5>
               <p className="text-neutral-500 text-base sm:text-2xl font-light">Worn during sleep to gently reshape the cornea and improve vision during the day without the need for glasses or contact lenses</p>
             </div >
             {/* Right */}
@@ -93,9 +93,9 @@ export default function ContactLenses() {
       {/* Section 3 */}
       {/* Outer Container for the green background */}
       <div className="bg-green1 -ml-7 -mr-7 md:-ml-20 md:-mr-20 mb-10 p-7 md:p-20">
-        <GoldTitle text="Orthokeratology lenses" />
+        <GoldTitle text="Orthokeratology contact lenses" />
         <br />
-        <h2 className="text-white text-xl sm:text-[40px] font-normal">Ortho-K lenses</h2>
+        <h2 className="text-white text-xl sm:text-[40px] font-normal">Ortho-K contact lenses</h2>
         <br />
         {/* Flex container for left and right side */}
         <div className="flex flex-col sm:flex-row justify-between">

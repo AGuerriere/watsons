@@ -166,6 +166,9 @@ export default function EyeConditions() {
             <br />
             <p>The recovery time is usually a few weeks, during which you need to use eye drops and wear sunglasses to protect your eyes.</p>
             <br />
+            <p>You should have an examination with an optometrist approximately 6 weeks after surgery.</p>
+            <br />
+            <p>In many cases we work in conjunction with the surgeon providing the review appointment locally.</p>
           </div>
         </div>
       </div>
@@ -338,13 +341,6 @@ export default function EyeConditions() {
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
               <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
-                <div className="text-black text-base sm:text-2xl font-light">Hot compresses using an Eye Bag</div>
-              </div>
-            </div>
-            <br />
-            <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-              <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
-              <div className="flex flex-col">
                 <div className="text-black text-base sm:text-2xl font-light">Artificial tears</div>
                 <div className="text-neutral-500 text-base sm:text-2xl font-light">which are eye drops that lubricate your eyes and replace the natural tears, these are available as drops or a gel.</div>
               </div>
@@ -365,8 +361,8 @@ export default function EyeConditions() {
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
               <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
               <div className="flex flex-col">
-                <div className="text-black text-base sm:text-2xl font-light">Lipiflow</div>
-                <div className="text-neutral-500 text-base sm:text-2xl font-light">which is a device that applies heat and pressure to your eyelids and clears the blocked oil glands that produce the oily layer of your tears.</div>
+                <div className="text-black text-base sm:text-2xl font-light">Hot compresses using an Eye Bag</div>
+                <div className="text-neutral-500 text-base sm:text-2xl font-light">This applies heat to your eyelids and clears the blocked oil glands that produce the oily layer of your tears.</div>
               </div>
             </div>
             <div className="flex pb-2 pt-2 border-b-2 border-dashed">
@@ -402,17 +398,18 @@ export default function EyeConditions() {
             <br />
             <p>Conjunctivitis can cause symptoms such as red eye, itching, burning, discharge, crustiness and sensitivity to light.</p>
             <br />
-            <h5 className="text-gold font-normal">Other Causes of red eye include: </h5>
-            <ul>
+            <h5 className="text-gold font-normal">Other causes of red eye include: </h5>
+            <br />
+            <ul className="list-disc list-inside">
               <li>A burst blood vessel,</li>
               <li>Blepharitis</li>
-              <li>an Ingrowing eye lash</li>
-              <li> a Foreign body</li>
+              <li>An ingrowing eye lash</li>
+              <li>A foreign body</li>
               <li>Eyelid problems</li>
               <li>Dry eyes though there are more causes</li>
-
             </ul>
-            <p>An examination is required to determine the cause and treatment required</p>
+            <br />
+            <p>An examination is required to determine the cause and treatment required.</p>
           </div>
           {/* Right */}
           <div className="sm:w-2/5">

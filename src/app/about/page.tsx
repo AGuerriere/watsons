@@ -92,7 +92,7 @@ export default function About() {
             <div className="p-4 md:p-10">
               <h5 className="text-black text-base md:text-3xl font-light">Katrina Watt,</h5>
               <h6 className="text-gold text-light text-base md:text-2xl">Optical Assistant</h6>
-              <p className="pt-5 font-light md:text-2xl text-base aspect-square sm:aspect-auto">Katrina is our newest member of staff. She has previous experience working in the optics industry and brings some new approaches to our practice. Her specialist knowledge is in contact lenses.</p>
+              <p className="pt-5 font-light md:text-2xl text-base aspect-square sm:aspect-auto">Katrina is our newest member of staff although she has been with us for several years now. She has previous experience working in the optics industry and brings some new approaches to our practice. Her specialist knowledge is in contact lenses. Katrina says “I like working in an independent community based practice where patient care is the priority.</p>
             </div>
           </div>
         </div>

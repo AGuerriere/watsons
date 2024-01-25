@@ -29,7 +29,7 @@ export default function Dry_Eye() {
           </div>
           {/* right */}
           <div className="sm:w-2/5 w-full">
-            <p>Dry eye disease is associated with either tear deficiency or excessive tear evaporation. It affects more than 40% of the population and is most commonly found in the elderly, post-menopausal women and those living or working in conditions of low humidity and/or poor air quality.</p>
+            <p>Dry eye disease is associated with either tear deficiency or excessive tear evaporation. It affects more than 40% of the population and is most commonly found in the elderly, post-menopausal women and those living or working in conditions of low humidity and/or poor air quality.</p><br />
             <p>Diagnosing Dry Eye Disease can be done during a routine or <span className="text-black text-2xl font-normal underline"><Link href="/NI_PEARS">NI PEARS</Link></span> examination, although in some cases a separate dry eye assessment appointment may be required.</p>
             <br />
             <LearnMore text="Learn more about NI PEARS " link="/NI_PEARS" target="_self" />
@@ -47,7 +47,7 @@ export default function Dry_Eye() {
           <p className="text-white font-light text-base md:text-2xl">
             The good news is we can recommend and guide you on a number of treatments you can carry out at home to reduce the effects of Dry Eye Disease, including:<br /><br />
           </p>
-          <ul className="text-white font-light text-base md:text-2xl">
+          <ul className="text-white font-light text-base md:text-2xl list-disc list-inside">
             <li>Blink exercises</li>
             <li>Hot compresses</li>
             <li>Eye drops/ointments</li>

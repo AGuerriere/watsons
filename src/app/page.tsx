@@ -65,9 +65,9 @@ export default function Home() {
       {/* Section 3 */}
       <div className='bg-green1 flex flex-col md:flex-row text-white -ml-7 -mr-7 md:-ml-20 md:-mr-20 md:pl-20 w-[100vw] mb-10 '>
         <div className='w-full md:w-2/3 pt-10 pl-7'>
-          <GoldTitle text='Free NHS Service' />
+          <GoldTitle text='NHS PEARS' />
           <br />
-          <h2 className='text-white text-2xl xl:text-5xl  font-normal pb-10'>Our Products and Services</h2>
+          <h2 className='text-white text-2xl xl:text-5xl  font-normal pb-10'>Free NHS services</h2>
           <p className='font-light lg:text-2xl pr-5'>The NHS cover the cost of a sight test for a wide range of people including children aged 16 and under, 16–18-year-olds in full time education and those over 60 amongst others. For a full list of those eligible click here
             <br /><br />Emergency appointments for minor eye conditions are available. This is known as NI PEARS (Northern Ireland Primary Eyecare Assessment and Referral Service).</p>
           <div className='border-solid border-2 w-36 md:w-60 md:h-14 h-9 rounded flex justify-center items-center mt-7'>
@@ -106,18 +106,6 @@ export default function Home() {
           </div>
           <div className='flex flex-col justify-between lg:ml-10 min-h-[500px]'>
             <GoldTitle text="Locations" />
-            <h4 className='text-2xl font-normal text-black'>Portrush</h4>
-            <p className='font-light'>
-              10 Main St, Portrush, BT56 8BL <br />
-              Call us on 028 7082 3677
-            </p>
-            <h5 className='text-black text-xl'>Opening Hours</h5>
-            <p className='font-light'>
-              Monday - Thursday: 9:00 - 17:00<br />
-              Friday: 9:00 - 15:00<br />
-              Saturday: Closed<br />
-              Sunday : Closed<br />
-            </p>
             <h4 className='text-2xl font-normal text-black'>Ballycastle</h4>
             <p className='font-light'>
               41 Ann St, Ballycastle, BT54 6AA <br />
@@ -125,9 +113,19 @@ export default function Home() {
             </p>
             <h5 className='text-black text-xl'>Opening Hours</h5>
             <p className='font-light'>
-              Monday - Thursday: 9:00 - 17:00 <br />
-              Friday: 9:00 - 15:00 <br />
-              Saturday: Closed <br />
+              Monday - Saturday: 9:00 - 17:30 <br />
+              Alternate Wensday: Closed <br />
+              Sunday : Closed <br />
+            </p>
+            <h4 className='text-2xl font-normal text-black'>Portrush</h4>
+            <p className='font-light'>
+              10 Main St, Portrush, BT56 8BL <br />
+              Call us on 028 7082 3677
+            </p>
+            <h5 className='text-black text-xl'>Opening Hours</h5>
+            <p className='font-light'>
+              Monday - Tuesday, Thursday, Friday, Saturday: 9:00 - 17:30 <br />
+              Alternate Saturday: Closed <br />
               Sunday : Closed <br />
             </p>
           </div>
