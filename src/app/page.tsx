@@ -58,7 +58,7 @@ export default function Home() {
           <Card title="Contact Lenses" target="_self" link="/contact_lenses" img="/images/homepage/2.webp" paragraph="If you prefer contact lenses, we can help you find the best fit and type for your eyes." />
           <Card title="PEARS (NHS free service)" link="NI_PEARS" target="_self" img="/images/homepage/5.webp" paragraph="The NHS has launched a new free eye care service for people with minor eye conditions." />
           <Card title="Dry eye clinic" target="_self" link="/dry_eye" img="/images/homepage/7.webp" paragraph="With the help of our Dry Eye clinic we can recommend the best tailored plan to minimise any discomfort." />
-          <Card title="Myopia management" target="_self" link="/myopia_management" img="/images/homepage/6.webp" paragraph="Repeated Low Level Red Light (RLRL) therapy designed to slow down the progression of myopia." />
+          <Card title="Myopia management" target="_self" link="/myopia_management" img="/images/homepage/12.webp" paragraph="Repeated Low Level Red Light (RLRL) therapy designed to slow down the progression of myopia." />
         </div>
       </div>
 
@@ -124,7 +124,7 @@ export default function Home() {
             <h5 className='text-black text-xl'>Opening Hours</h5>
             <p className='font-light'>
               Monday - Saturday: 9:00 - 17:30 <br />
-              Alternate Wensday: Closed <br />
+              Alternate Wednesday: Closed <br />
               Sunday : Closed <br />
             </p>
             <h4 className='text-2xl font-normal text-black'>Portrush</h4>
