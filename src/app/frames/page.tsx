@@ -146,106 +146,50 @@ export default function Frames() {
           />
         </div>
         <div className="sm:w-2/5 w-full flex flex-col justify-between">
-        <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-            <div className="flex mb-4 items-start">
-              <Image
-                src="/images/circle.svg"
-                width={20}
-                height={20}
-                alt="Checkmark image"
-                className="mr-3 mt-1"
-              />
-            </div>
+          <div className="flex pb-2 pt-2 border-b-2 border-dashed">
+            <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
             <div className="flex flex-col">
               <div className="text-black text-base sm:text-2xl font-light">Thinner, lighter lenses</div>
               <div className="text-neutral-500 text-base sm:text-2xl font-light">Enhance vision, comfort, and aesthetic.</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-            <div className="flex mb-4 items-start">
-              <Image
-                src="/images/circle.svg"
-                width={20}
-                height={20}
-                alt="Checkmark image"
-                className="mr-3 mt-1"
-              />
-            </div>
+            <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
             <div className="flex flex-col">
               <div className="text-black text-base sm:text-2xl font-light">Anti-reflective lenses</div>
               <div className="text-neutral-500 text-base sm:text-2xl font-light">For those who spend a lot of time looking at screens or who struggle with glare when driving at night.</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-            <div className="flex mb-4 items-start">
-              <Image
-                src="/images/circle.svg"
-                width={20}
-                height={20}
-                alt="Checkmark image"
-                className="mr-3 mt-1"
-              />
-            </div>
+            <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
             <div className="flex flex-col">
               <div className="text-black text-base sm:text-2xl font-light">Driving lenses</div>
               <div className="text-neutral-500 text-base sm:text-2xl font-light">DriveSafe lenses designed to enhance the driving experience especially at night</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-            <div className="flex mb-4 items-start">
-              <Image
-                src="/images/circle.svg"
-                width={20}
-                height={20}
-                alt="Checkmark image"
-                className="mr-3 mt-1"
-              />
-            </div>
+            <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
             <div className="flex flex-col">
               <div className="text-black text-base sm:text-2xl font-light">Multifocals</div>
               <div className="text-neutral-500 text-base sm:text-2xl font-light">For those who need distance and reading glasses but don’t want to have multiple pairs</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-            <div className="flex mb-4 items-start">
-              <Image
-                src="/images/circle.svg"
-                width={20}
-                height={20}
-                alt="Checkmark image"
-                className="mr-3 mt-1"
-              />
-            </div>
+            <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
             <div className="flex flex-col">
               <div className="text-black text-base sm:text-2xl font-light">Enhanced readers</div>
               <div className="text-neutral-500 text-base sm:text-2xl font-light">For those who spend a lot of their working day in an office or at a computer.</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-            <div className="flex mb-4 items-start">
-              <Image
-                src="/images/circle.svg"
-                width={20}
-                height={20}
-                alt="Checkmark image"
-                className="mr-3 mt-1"
-              />
-            </div>
+            <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
             <div className="flex flex-col">
               <div className="text-black text-base sm:text-2xl font-light">Transition lenses</div>
               <div className="text-neutral-500 text-base sm:text-2xl font-light">Which darken in the sun for those who want one pair of glasses to act as day-to-day glasses and sunglasses</div>
             </div>
           </div>
           <div className="flex pb-2 pt-2 border-b-2 border-dashed">
-            <div className="flex mb-4 items-start">
-              <Image
-                src="/images/circle.svg"
-                width={20}
-                height={20}
-                alt="Checkmark image"
-                className="mr-3 mt-1"
-              />
-            </div>
+            <div className="w-[15px] h-[15px] bg-gold rounded-full mt-1 mr-5 aspect-square mb-3"></div>
             <div className="flex flex-col">
               <div className="text-black text-base sm:text-2xl font-light">Myopia control lenses</div>
               <div className="text-neutral-500 text-base sm:text-2xl font-light">Myopia control lenses desgined to slow down the progression of myopia in children</div>
@@ -255,7 +199,7 @@ export default function Frames() {
       </div>
       {/* Section 5 */}
       <div className="flex flex-col sm:flex-row mt-10 sm:mt-20 mb-10">
-      <div className="sm:w-1/2 order-2 sm:order-1">
+        <div className="sm:w-1/2 order-2 sm:order-1">
           <H2Title title="Did you know?" />
           <p className="text-neutral-500 text-base sm:text-2xl font-light ">Once you’ve chosen your frame and lenses, we have our own glazing lab on site to make sure your new glasses are ready as quickly as possible for you to enjoy.</p>
           <br />
