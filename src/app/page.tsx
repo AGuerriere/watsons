@@ -101,7 +101,7 @@ export default function Home() {
               <input type="tel" name="tel" id="tel" placeholder="Mobile Number*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
               <input type="text" name="subject" id="subject" placeholder="Subject" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
               <input type="text" name="text" id="text" placeholder="Type your message here" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
-              {/* <div className='flex justify-between w-1/3'>
+              <div className='flex justify-between w-1/3'>
                 <div>
                   <input type="radio" id="ballycastle" name="location" value="Ballycastle" required />
                   <label className="ml-1" htmlFor="ballycastle">Ballycastle</label>
@@ -110,7 +110,7 @@ export default function Home() {
                   <input type="radio" id="portrush" name="location" value="Portrush" required />
                   <label className="ml-1" htmlFor="portrush">Portrush</label>
                 </div>
-              </div> */}
+              </div>
               <button className='mt-4'><GoldButton text='Submit  '></GoldButton></button>
             </form>
           </div>
