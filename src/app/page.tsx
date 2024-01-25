@@ -96,21 +96,21 @@ export default function Home() {
             <p className='text-grey1 text-base mb-2 md:text-xl lg:text-2xl font-light'>To arrange an appointment or register as a new customers please fill in the form below and we will get back to you within 48 hours: </p>
             <br />
             <form name="contact" method="POST" action="/success" data-netlify="true" className="flex flex-col mb-10">
-              <input type="text" name="name" id="name" placeholder="Name*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required/>
-              <input type="email" name="email" id="email" placeholder="Email*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required/>
-              <input type="tel" name="tel" id="tel" placeholder="Mobile Number*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required/>
-              <input type="text" name="subject" id="subject" placeholder="Subject" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required/>
-              <input type="text" name="text" id="text" placeholder="Type your message here" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required/>
-              <div className='flex justify-between w-1/3'>
+              <input type="text" name="name" id="name" placeholder="Name*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
+              <input type="email" name="email" id="email" placeholder="Email*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
+              <input type="tel" name="tel" id="tel" placeholder="Mobile Number*" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
+              <input type="text" name="subject" id="subject" placeholder="Subject" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
+              <input type="text" name="text" id="text" placeholder="Type your message here" className="bg-grey3 h-16 pl-5 rounded border mb-3 placeholder:text-grey4" required />
+              {/* <div className='flex justify-between w-1/3'>
                 <div>
-                <input type="radio" id="ballycastle" name="location" value="Ballycastle" required/>
-                <label className="ml-1" htmlFor="ballycastle">Ballycastle</label>
+                  <input type="radio" id="ballycastle" name="location" value="Ballycastle" required />
+                  <label className="ml-1" htmlFor="ballycastle">Ballycastle</label>
                 </div>
                 <div>
-                <input type="radio" id="portrush" name="location" value="Portrush" required/>
-                <label className="ml-1" htmlFor="portrush">Portrush</label>
+                  <input type="radio" id="portrush" name="location" value="Portrush" required />
+                  <label className="ml-1" htmlFor="portrush">Portrush</label>
                 </div>
-              </div>
+              </div> */}
               <button className='mt-4'><GoldButton text='Submit  '></GoldButton></button>
             </form>
           </div>
