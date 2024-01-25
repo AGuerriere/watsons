@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function Footer() {
   return (
     <>
-      <div className="grid grid-cols-3 gap-x-3 md:grid-cols-5 justify-between md:grid-cols-5 bg-green1 -ml-7 -mr-7 md:-ml-20 md:-mr-20 text-white  p-7">
+      <div className="grid grid-cols-3 gap-x-3 md:grid-cols-5 justify-between md:grid-cols-5 bg-green1 -ml-7 -mr-7 md:-ml-20 md:-mr-20 text-white pl-7 pr-7 md:pl-20 md:pr-20 pt-7 pb-7">
         <div>
           <Image
             src="/images/white-logo.webp"
