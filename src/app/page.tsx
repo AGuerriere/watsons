@@ -28,7 +28,7 @@ export default function Home() {
         <div className='flex flex-col lg:flex-row mt-20 pb-20 2xl:w-[1600px]'>
           <div className="flex order-2 lg:order-1 justify-center lg:justify-end w-full lg:w-2/5 relative min-h-[250px] lg:min-h-[500px]">
             <Image
-              src="/images/homepage/6.webp"
+              src="/images/homepage/14.webp"
               fill
               sizes="100%"
               alt="Picture of an eye test tool"

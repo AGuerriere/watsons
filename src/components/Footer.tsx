@@ -29,7 +29,7 @@ export default function Footer() {
           <Link href="/eye_conditions">Eye Conditions</Link>
         </div>
         <div className="col-start-2 md:col-start-4">
-          <h5>Locations</h5>
+          <h5>Locations:</h5>
           <br />
           <h5>Ballycastle</h5>
           <p className="text-xs text-grey2">

@@ -11,9 +11,3 @@
 .height-custom {
   height: calc(100vh - 390px - 7rem);
 }
-
-@media (min-width: 1536px) {
-  .custom-pl {
-      padding-left: calc((100vw - 16000px) / 2)!important;
-  }
-}
