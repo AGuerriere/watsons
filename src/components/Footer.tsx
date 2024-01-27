@@ -67,7 +67,16 @@ export default function Footer() {
 
         </div>
       </div>
-      <div className="flex justify-center items-center bg-greenOverlay text-white h-16 -ml-7 -mr-7 md:-ml-20 md:-mr-20">© 2023 Mind Technica All Rights Reserved</div>
+      <div className="flex flex-col md:flex-row justify-between items-center bg-greenOverlay text-white md:h-16 -ml-7 -mr-7 md:-ml-20 md:-mr-20 md:pl-20 md:pr-20 pt-3 pb-3 md:pt-7 md:pb-7">
+        <p>© 2023 Watsons Opticians All Rights Reserved</p>
+        <Link href="https://mindtechnica.com/">
+          <Image
+            src="/images/homepage/mindtechnica.png"
+            width={80}
+            height={70}
+            alt="Mind Technica Logo"
+          />
+        </Link> </div>
     </>
   )
 }
