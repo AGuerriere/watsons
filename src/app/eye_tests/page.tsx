@@ -30,7 +30,7 @@ export default function EyeTests() {
             <br />
             <p className="text-neutral-500 text-2xl font-light">So getting your eyes tested can help prevent, or limit, the damage caused by certain eye conditions. For more information on common eye conditions <Link href="/eye_conditions">click here.</Link></p>
             <br />
-            <Link href="/#contact-us"><GoldButton text='Book Appointment'></GoldButton></Link>
+            <a href="https://watsonsopticians.com/#contact-us"><GoldButton text='Book Appointment'></GoldButton></a>
           </div>
           <div className="sm:w-2/5 mt-10 sm:mt-0">
             <p className="text-neutral-500 text-base sm:text-2xl font-light mb-8">Regular eye examinations are important because:</p>

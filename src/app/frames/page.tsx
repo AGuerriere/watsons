@@ -203,7 +203,7 @@ export default function Frames() {
           <H2Title title="Did you know?" />
           <p className="text-neutral-500 text-base sm:text-2xl font-light ">Once you’ve chosen your frame and lenses, we have our own glazing lab on site to make sure your new glasses are ready as quickly as possible for you to enjoy.</p>
           <br />
-          <Link href="/#contact-us"><GoldButton text='Book Appointment'></GoldButton></Link>
+          <a href="https://watsonsopticians.com/#contact-us"><GoldButton text='Book Appointment'></GoldButton></a>
         </div>
         <div className="w-full sm:ml-10 sm:w-1/2 sm:order-2 mt-7 sm:mt-0 order-1 min-h-[200px] h-fill relative mb-5 sm:mb-0">
           <Image

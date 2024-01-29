@@ -142,7 +142,7 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <Link href="https://watsonsopticians.com/#contact-us" onClick={() => triggerToggle()}><GoldButton text='Book Appointment'></GoldButton></Link>
+          <a href="https://watsonsopticians.com/#contact-us" onClick={() => triggerToggle()}><GoldButton text='Book Appointment'></GoldButton></a>
         </div>
       </nav>
     </>
