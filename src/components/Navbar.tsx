@@ -57,6 +57,7 @@ export default function Navbar() {
         </div>
         <Link href="/frames">Eye Wear</Link>
         <Link href="/contact_lenses">Contact Lenses</Link>
+        <Link href="/hearing_care">Hearing Care<span className="text-red-800 text-xs">(New)</span></Link>
         <div className="group inline-block relative">
           <button className="rounded inline-flex items-center">
             <span className="form-select bg-no-repeat pr-8">Eye Conditions</span>
@@ -129,6 +130,7 @@ export default function Navbar() {
             </div>
           </div>
           <Link href="/frames" className="active:text-black" onClick={() => triggerToggle()}>Eye Wear</Link>
+          <Link href="/hearing_care" className="active:text-black" onClick={() => triggerToggle()}>Hearing Care<span className="text-red-800 text-xs">(New)</span></Link>
           <Link href="/contact_lenses" className="active:text-black" onClick={() => triggerToggle()}>Contact Lenses</Link>
           <div className="group inline-block relative">
             <button className="rounded inline-flex items-center" onClick={() => showEyeConditionsSubMenu()}>
