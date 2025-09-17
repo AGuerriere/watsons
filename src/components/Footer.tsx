@@ -36,11 +36,6 @@ export default function Footer() {
             41 Ann St, Ballycastle, BT54 6AA <br />
             Call us on 028 2076 2431
           </p>
-          <h5>Portrush</h5>
-          <p className="text-xs text-grey2">
-            10 Main St, Portrush, BT56 8BL <br />
-            Call us on 028 7082 3677
-          </p>
 
         </div>
         <div className="flex flex-col justify-between">
@@ -55,14 +50,6 @@ export default function Footer() {
               </p>
             </div>
             <br />
-            <div>
-              <p>Portrush</p>
-              <p className="text-xs text-grey2">
-                Monday - Tuesday, Thursday, Friday, Saturday: 9:00 - 17:30 <br />
-                Alternate Saturday: Closed <br />
-                Sunday : Closed <br />
-              </p>
-            </div>
           </div>
 
         </div>

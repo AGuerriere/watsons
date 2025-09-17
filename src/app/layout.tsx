@@ -7,8 +7,8 @@ const source_sans = Source_Sans_3({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Watsons Opticians',
-  description: 'Watsons Opticians. Family opticians based in Ballycastle and Portrush',
-  keywords: ['Opticians', 'Optician','Optometrists', 'Optomestrist', 'Frames', 'Contact Lenses', 'Ballycastle', 'Portrush', 'Ortho-K','Orthokeratology', 'Frames', 'Glasses', 'Contact Lenses', 'Dry Eye', 'Northern Ireland', 'Ireland', 'North Coast', 'Moyle', 'Causeway'],
+  description: 'Watsons Opticians. Family opticians based in Ballycastle',
+  keywords: ['Opticians', 'Optician','Optometrists', 'Optomestrist', 'Frames', 'Contact Lenses', 'Ballycastle', 'Ortho-K','Orthokeratology', 'Frames', 'Glasses', 'Contact Lenses', 'Dry Eye', 'Northern Ireland', 'Ireland', 'North Coast', 'Moyle', 'Causeway'],
   metadataBase: new URL('https://watsonsopticians.com/'),
   icons: {
     icon: '/favicon.ico',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: '/images/logo.webp',
     title: 'Watsons Opticians',
-    description: 'Watsons Opticians. Family opticians based in Ballycastle and Portrush',
+    description: 'Watsons Opticians. Family opticians based in Ballycastle',
     url: 'https://watsonsopticians.com/',
     siteName: 'Watsons Opticians',
   },

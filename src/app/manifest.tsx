@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Watsons Opticians',
     short_name: 'Watsons Opticians',
-    description: 'Watsons Opticians, family optometrists in Ballycastle and Portrush',
+    description: 'Watsons Opticians, family optometrists in Ballycastle',
     start_url: '/',
     display: 'standalone',
     background_color: '#fff',

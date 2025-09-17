@@ -191,10 +191,6 @@ export default function Home() {
                     <input type="radio" id="ballycastle" name="location" value="Ballycastle" required />
                     <p className="ml-1 mr-2">Ballycastle</p>
                   </div>
-                  <div className='flex'>
-                    <input type="radio" id="portrush" name="location" value="Portrush" required />
-                    <p className="ml-1">Portrush</p>
-                  </div>
                 </div>
                 <button className='mt-4'><GoldButton text='Submit  '></GoldButton></button>
                 {isSubmitSuccessful && isSuccess && (
@@ -220,17 +216,6 @@ export default function Home() {
               <p className='font-light mb-5'>
                 Monday - Saturday: 9:00 - 17:30 <br />
                 Alternate Wednesday: Closed <br />
-                Sunday : Closed <br />
-              </p>
-              <h4 className='text-2xl font-normal text-black'>Portrush</h4>
-              <p className='font-light mb-5'>
-                10 Main St, Portrush, BT56 8BL <br />
-                Call us on 028 7082 3677
-              </p>
-              <h5 className='text-black text-xl'>Opening Hours</h5>
-              <p className='font-light mb-5'>
-                Monday - Tuesday, Thursday, Friday, Saturday: 9:00 - 17:30 <br />
-                Alternate Saturday: Closed <br />
                 Sunday : Closed <br />
               </p>
             </div>
