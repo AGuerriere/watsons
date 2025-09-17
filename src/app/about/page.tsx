@@ -99,6 +99,15 @@ export default function About() {
                   </div>
                 </div>
               </div>
+              <div className="flex flex-col sm:flex-row border mb-10">
+                <div className="sm:h-auto w-full sm:order-1">
+                  <div className="p-4 md:p-10">
+                    <h5 className="text-black text-base md:text-3xl font-light">Michaela Esler</h5>
+                    <h6 className="text-gold text-light text-base md:text-2xl">Audiologist</h6>
+                    <p className="pt-5 font-light md:text-2xl text-base">Michaela Esler is an experienced audiologist from Ballymena, dedicated to helping you enjoy life’s precious moments through better hearing. With a degree in Audiology from De Montfort University and certifications from the British Society of Hearing Aid Audiologists and the Health and Care Professions Council, Michaela combines expertise with personalized care. Now offering hearing services at Watsons Opticians, she’s here to provide everything from hearing tests to wax removal, ensuring you feel confident and supported every step of the way.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
