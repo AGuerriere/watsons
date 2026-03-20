@@ -55,7 +55,8 @@ export default function EyeTests() {
             className='order-2 xl:order-1 -pl-7 w-auto object-cover'
           />
         </div>
-        <div className='w-full bg-green1 lg:w-1/2 p-8'>
+        <div className='w-full bg-green1 lg:w-1/2 pl-7 lg:pl-8 pr-7 md:pr-20 pt-8 pb-8'>
+          <div className="w-full max-w-[800px]">
           <GoldTitle text="Eye Tests" />
           <br />
           <h2 className="text-light text-[32px] md:text-[40px] text-white">What to expect</h2> <br /><br />
@@ -65,6 +66,7 @@ export default function EyeTests() {
             Once the test is complete the optician will explain the results of your test, and make any recommendations based on these. <br /><br />
             Your prescription can be dispensed wherever you choose. However, prescribing and dispensing of glasses are closely linked, so it is best to have your glasses dispensed where you have your eyes examined. <br /><br />
           </p>
+          </div>
         </div>
       </div>
       {/* Section 3 */}

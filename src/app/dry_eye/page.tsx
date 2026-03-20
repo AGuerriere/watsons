@@ -44,7 +44,8 @@ export default function Dry_Eye() {
       {/* Flex container */}
       <div className="flex flex-col sm:flex-row -ml-7 -mr-7 md:-ml-20 md:-mr-20">
         {/* left */}
-        <div className='w-full bg-green1 md:w-1/2 pl-7 lg:pl-20 pt-10 pb-10'>
+        <div className='w-full bg-green1 md:w-1/2 pt-10 pb-10 pl-7 md:pl-20 flex justify-end'>
+          <div className="w-full max-w-[800px]">
           <h2 className="text-light text-[32px] md:text-[40px] text-white">Treatment for Dry Eye Disease</h2> <br /><br />
           <p className="text-white font-light text-base md:text-2xl">
             The good news is we can recommend and guide you on a number of treatments you can carry out at home to reduce the effects of Dry Eye Disease, including:<br /><br />
@@ -64,6 +65,7 @@ export default function Dry_Eye() {
           <p className="text-white font-light text-base md:text-2xl">
             With the help of our Dry Eye clinic we can recommend the best tailored plan to suit your needs and monitor progress to minimise any discomfort.
           </p>
+          </div>
         </div>
         {/* right */}
         <div className="flex justify-center md:justify-end w-full md:w-1/2 relative min-h-[500px] md:min-h-[700px]">
