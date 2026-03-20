@@ -12,7 +12,8 @@ export default function Myopia_Management() {
       <Navbar />
       <Header title="Myopia management" image="/images/homepage/6.webp" percentage="30" />
       {/* Main */}
-      <div className="mt-20 mb-20">
+      <div className='flex justify-center w-full'>
+      <div className="w-full 2xl:w-[1600px] mt-20 mb-20">
         <GoldTitle text="Myopia management" />
         <br />
         <H2Title title="What is myopia?" />
@@ -56,6 +57,7 @@ export default function Myopia_Management() {
           </div>
           </div>
         </div>
+      </div>
       </div>
       <Footer />
     </>

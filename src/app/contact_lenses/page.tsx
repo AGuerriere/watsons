@@ -13,14 +13,20 @@ export default function ContactLenses() {
       <Navbar />
       <Header title="Contact lenses" image="/images/homepage/2.webp" percentage="30" />
       {/* Section 1 */}
-      <div className="lg:w-2/5 mb-10 mt-10">
+      <div className='flex justify-center w-full'>
+      <div className="w-full 2xl:w-[1600px] mb-10 mt-10">
+      <div className="lg:w-2/5">
         <GoldTitle text="Contact Lenses" />
         <br />
         <H2Title title="What we offer" />
         <p className="text-neutral-500 text-base sm:text-2xl font-light">We have different types of contact lenses to suit your needs and preferences including spherical and toric, depending on your prescription.</p>
       </div>
+      </div>
+      </div>
       {/* Section 2 */}
       {/* Container for the table to center the table in the page. */}
+      <div className='flex justify-center w-full'>
+      <div className="w-full 2xl:w-[1600px]">
       <div className="flex flex-row justify-center ">
         {/* Outer div for the table - Width is roughly 93% of the total container  */}
         <div className="border-solid border-2 sm:w-11/12 mb-10">
@@ -90,9 +96,13 @@ export default function ContactLenses() {
           </div>
         </div>
       </div>
+      </div>
+      </div>
       {/* Section 3 */}
       {/* Outer Container for the green background */}
       <div className="bg-green1 -ml-7 -mr-7 md:-ml-20 md:-mr-20 mb-10 p-7 md:p-20">
+        <div className='flex justify-center w-full'>
+        <div className="w-full 2xl:w-[1600px]">
         <GoldTitle text="Orthokeratology contact lenses" />
         <br />
         <h2 className="text-white text-xl sm:text-[40px] font-normal">Ortho-K contact lenses</h2>
@@ -127,7 +137,11 @@ export default function ContactLenses() {
           </div>
         </div>
       </div>
+        </div>
+        </div>
       {/* Section 4 */}
+      <div className='flex justify-center w-full'>
+      <div className="w-full 2xl:w-[1600px]">
       <br />
       <H2Title title="Interested in contact lenses?" />
       <div className="flex flex-col sm:flex-row justify-between pb-10">
@@ -136,6 +150,8 @@ export default function ContactLenses() {
           <LearnMore text="Contact us" link="https://watsonsopticians.com#contact-us" target="_self" /></div>
       </div>
       <br />
+      </div>
+      </div>
       <Footer />
     </>
   )

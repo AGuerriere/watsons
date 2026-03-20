@@ -55,7 +55,8 @@ export default function EyeConditions() {
       <Navbar />
       <Header title="Eye Conditions" image="/images/homepage/7.webp" percentage="20" />
       {/* Section 1 */}
-      <div className="flex flex-col sm:flex-row pt-10 mb-10 justify-between">
+      <div className='flex justify-center w-full'>
+      <div className="w-full 2xl:w-[1600px] flex flex-col sm:flex-row pt-10 mb-10 justify-between">
         {/* left */}
         <div className="sm:w-2/5">
           <GoldTitle text="Eye Conditions" />
@@ -77,12 +78,14 @@ export default function EyeConditions() {
           </ul>
         </div>
       </div>
+      </div>
       {/* Glaucoma */}
       <div className="flex items-center -ml-7 -mr-7 pl-7 pr-7 justify-between bg-goldBg sm:hidden h-[70px]" onClick={() => triggerToggle1()}>
         <h2 className="text-2xl xl:text-5xl text-black font-normal">Glaucoma</h2>
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden1 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
       <div className={`${hidden1 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 bg-goldBg sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
+        <div className='flex justify-center w-full'><div className="w-full 2xl:w-[1600px]">
         <div className="hidden sm:block"><H2Title title="Glaucoma" /></div>
         {/* left right container */}
         <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
@@ -134,6 +137,7 @@ export default function EyeConditions() {
             </div>
           </div>
         </div>
+        </div></div>
       </div>
 
       {/* Cataracts */}
@@ -142,6 +146,7 @@ export default function EyeConditions() {
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden2 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
       <div className={`${hidden2 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
+        <div className='flex justify-center w-full'><div className="w-full 2xl:w-[1600px]">
         <div className="hidden sm:block"><H2Title title="Cataracts" /></div>
         {/* left right container */}
         <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
@@ -171,6 +176,7 @@ export default function EyeConditions() {
             <p>In many cases we work in conjunction with the surgeon providing the review appointment locally.</p>
           </div>
         </div>
+        </div></div>
       </div>
 
       {/* Macular Degeneration */}
@@ -179,6 +185,7 @@ export default function EyeConditions() {
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden3 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
       <div className={`${hidden3 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 bg-goldBg sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
+        <div className='flex justify-center w-full'><div className="w-full 2xl:w-[1600px]">
         <div className="hidden sm:block"><H2Title title="Macular Degeneration" /></div>
         {/* left right container */}
         <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
@@ -236,6 +243,7 @@ export default function EyeConditions() {
             </div>
           </div>
         </div>
+        </div></div>
       </div>
 
       {/* Diabetic retinopathy */}
@@ -244,6 +252,7 @@ export default function EyeConditions() {
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden4 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
       <div className={`${hidden4 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
+        <div className='flex justify-center w-full'><div className="w-full 2xl:w-[1600px]">
         <div className="hidden sm:block"><H2Title title="Diabetic retinopathy" /></div>
         {/* left right container */}
         <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
@@ -291,6 +300,7 @@ export default function EyeConditions() {
             </div>
           </div>
         </div>
+        </div></div>
       </div>
 
       {/* Dry eye syndrome */}
@@ -299,6 +309,7 @@ export default function EyeConditions() {
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden5 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
       <div className={`${hidden5 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 bg-goldBg sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
+        <div className='flex justify-center w-full'><div className="w-full 2xl:w-[1600px]">
         <div className="hidden sm:block"><H2Title title="Dry eye syndrome" /></div>
         {/* left right container */}
         <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
@@ -375,6 +386,7 @@ export default function EyeConditions() {
             </div>
           </div>
         </div>
+        </div></div>
       </div>
 
       {/* Conjuctivitis */}
@@ -383,6 +395,7 @@ export default function EyeConditions() {
         <div className={`border-r-2 border-b-2 border-black h-4 w-4 transform ${hidden6 === 1 ? 'rotate-45' : 'rotate-[225deg]'}`}></div>
       </div>
       <div className={`${hidden6 === 1 ? 'hidden' : ''} sm:block group-focus:block -ml-7 -mr-7 md:-ml-20 md:-mr-20  pl-7 pr-7 md:pl-20 md:pr-20 sm:mt-20 sm:mb-20 sm:pt-20 sm:pb-20 pt-10 pb-10`}>
+        <div className='flex justify-center w-full'><div className="w-full 2xl:w-[1600px]">
         <div className="hidden sm:block"><H2Title title="Conjunctivitis" /></div>
         {/* left right container */}
         <div className="flex flex-col sm:flex-row justify-between text-black text-base sm:text-2xl font-light">
@@ -442,6 +455,7 @@ export default function EyeConditions() {
             </div>
           </div>
         </div>
+        </div></div>
       </div>
 
 

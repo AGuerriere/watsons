@@ -14,7 +14,8 @@ export default function NI_PEARS(){
       <Navbar />
       <Header title="NI PEARS" image="/images/homepage/5.webp" percentage="30" />
       {/* Main */}
-      <div className="mt-10 mb-20">
+      <div className='flex justify-center w-full'>
+      <div className="w-full 2xl:w-[1600px] mt-10 mb-20">
         <GoldTitle text="NI Pears" />
         <br />
         <H2Title title="What is NI PEARS?" />
@@ -46,6 +47,7 @@ export default function NI_PEARS(){
             </ul>
           </div>
         </div>
+      </div>
       </div>
       <Footer />
     </>

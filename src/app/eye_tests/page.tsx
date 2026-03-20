@@ -15,7 +15,8 @@ export default function EyeTests() {
       <Navbar />
       <Header title="Eye Tests" image="/images/homepage/3.webp" percentage="40%" />
       {/* Section 1 */}
-      <div className="mb-10 mt-10">
+      <div className='flex justify-center w-full'>
+      <div className="w-full 2xl:w-[1600px] mb-10 mt-10">
         <GoldTitle text="Eye Tests" />
         <br />
         <H2Title title="Why get an eye test" />
@@ -40,6 +41,7 @@ export default function EyeTests() {
           <Checkmark text="We are also able to look out for signs of  broader health conditions with symptoms that affect the eyes, such as diabetes and high blood pressure." />
           </div>
         </div>
+      </div>
       </div>
 
       {/* Section 2 */}
@@ -66,7 +68,8 @@ export default function EyeTests() {
         </div>
       </div>
       {/* Section 3 */}
-      <div className="pt-10">
+      <div className='flex justify-center w-full'>
+      <div className="w-full 2xl:w-[1600px] pt-10">
         <GoldTitle text="Eye Tests" />
         <br />
         <H2Title title="Did you know?" />
@@ -77,6 +80,7 @@ export default function EyeTests() {
             <LearnMore text="Learn more about NI PEARS " target="_self" link="NI_PEARS"/>
           </div>
         </div>
+      </div>
       </div>
       <Footer />
     </>

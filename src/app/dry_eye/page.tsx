@@ -13,7 +13,8 @@ export default function Dry_Eye() {
       <Navbar />
       <Header title="Dry eye clinic" image="/images/homepage/7.webp" percentage="20" />
       {/* Section 1 */}
-      <div className="mt-20 mb-20 text-black text-base sm:text-2xl font-light">
+      <div className='flex justify-center w-full'>
+      <div className="w-full 2xl:w-[1600px] mt-20 mb-20 text-black text-base sm:text-2xl font-light">
         <GoldTitle text="Dry Eye Clinic" />
         <br />
         <H2Title title="Are you suffereing with the dry eyes?" />
@@ -37,6 +38,7 @@ export default function Dry_Eye() {
 
         </div>
 
+      </div>
       </div>
       {/* Section 2 */}
       {/* Flex container */}
@@ -75,7 +77,8 @@ export default function Dry_Eye() {
         </div>
       </div>
       {/* Section 3 */}
-      <div className="pb-20 pt-20">
+      <div className='flex justify-center w-full'>
+      <div className="w-full 2xl:w-[1600px] pb-20 pt-20">
         <H2Title title="Contact our specialists" />
         <div className="flex flex-col sm:flex-row justify-between sm:items-end text-black text-base md:text-2xl font-light pt-10 pb-10">
           <p className="sm:w-2/5">Please contact us to arrange an appointment for our Dry Eye clinic if you think this is something we can help with.</p>
@@ -83,6 +86,7 @@ export default function Dry_Eye() {
             <LearnMore text="Contact Us" link="https://watsonsopticians.com#contact-us" target="_self" />
           </div>
         </div>
+      </div>
       </div>
       <Footer />
     </>

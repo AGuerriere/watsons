@@ -15,7 +15,8 @@ export default function Frames() {
       <Navbar />
       <Header title="Eye Wear" image="/images/homepage/10.webp" percentage="30" />
       {/* Section 1 */}
-      <div className="flex flex-col sm:flex-row mt-10 mb-10">
+      <div className='flex justify-center w-full'>
+      <div className="w-full 2xl:w-[1600px] flex flex-col sm:flex-row mt-10 mb-10">
         <div className="w-full sm:w-1/2 sm:order-1 mt-7 sm:mt-0 order-2 min-h-[200px] h-fill relative">
           <Image
             src="/images/homepage/1.webp"
@@ -33,6 +34,10 @@ export default function Frames() {
         </div>
 
       </div>
+      </div>
+      {/* Section 2 onwards */}
+      <div className='flex justify-center w-full'>
+      <div className="w-full 2xl:w-[1600px]">
       {/* Section 2 */}
       <GoldTitle text="Brands" />
       <div className="overflow-auto whitespace-nowrap flex pb-7 pt-7 ">
@@ -214,6 +219,8 @@ export default function Frames() {
             className="object-cover object-center"
           />
         </div>
+      </div>
+      </div>
       </div>
       <Footer />
     </>
